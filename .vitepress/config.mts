@@ -1,13 +1,13 @@
 import { defineConfig } from "vitepress";
 
-// https://vitepress.dev/reference/site-config
+// https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
-  title: "Vitepress 模板",
-  description: "一个 VitePress 站点",
-  // base: "/", // always ends with slash
+  title: "Steins;Inn 次元旅社",
+  description: "AI角色扮演 · 动漫 · 游戏 · 闲聊",
+  // base: "/", // always ends with slash | 直译： base: "/", // 总是以斜杠结尾
   cleanUrls: true,
   head: [
-    ["link", { rel: "icon", href: "https://icons.siiway.org/siiway/icon.svg" }],
+    ["link", { rel: "icon", href: "/images/favicon.ico" }],
   ],
   lastUpdated: true,
   themeConfig: {
@@ -24,29 +24,28 @@ export default defineConfig({
             { text: "API 示例", link: "/api-examples" },
           ],
         },
-        { text: "外链示例", link: "https://not-exist.wss.moe/outlink-zh" },
+        { text: "Discord", link: "https://discord.gg/jx5Z6NfuTP" },
       ],
-      ["/en_us/"]: [
-        { text: "Back to homepage", link: "/en_us/" },
+      ["/en/"]: [
+        { text: "Back to homepage", link: "/en/" },
         {
           text: "Example docs",
           items: [
-            { text: "Markdown Examples", link: "/en_us/markdown-examples" },
-            { text: "API Examples", link: "/en_us/api-examples" },
+            { text: "Markdown Examples", link: "/en/markdown-examples" },
+            { text: "API Examples", link: "/en/api-examples" },
           ],
         },
-        { text: "Outlink Test", link: "https://not-exist.wss.moe/outlink-en" },
+        { text: "Outlink Test", link: "https://discord.gg/jx5Z6NfuTP" },
       ],
     },
-
+    // 还需更改GitHub链接
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-      { icon: "qq", link: "https://not-exist.wss.moe/qq" },
-      { icon: "discord", link: "https://not-exist.wss.moe/discord" },
+      { icon: "github", link: "https://github.com/Steins-Inn/Docs" },
+      { icon: "discord", link: "https://discord.gg/jx5Z6NfuTP" },
     ],
 
     editLink: {
-      pattern: "https://github.com/wyf9/vitepress-template/edit/main/:path",
+      pattern: "https://github.com/Steins-Inn/Docs/edit/main/:path",
       text: "在 GitHub 上编辑本页",
     },
 
@@ -67,21 +66,21 @@ export default defineConfig({
     en_us: {
       label: "English",
       lang: "en",
-      link: "/en_us/",
+      link: "/en/",
 
-      title: "Vitepress Template",
-      description: "A VitePress Site",
+      title: "Steins;Inn",
+      description: "AI Role Play · Anime · Game · Chat",
 
       themeConfig: {
-        nav: [{ text: "Home", link: "/en_us/" }],
-
+        nav: [{ text: "Home", link: "/en/" }],
+    // 还需更改GitHub链接
         socialLinks: [
-          { icon: "github", link: "https://github.com/vuejs/vitepress" },
-          { icon: "discord", link: "https://not-exist.wss.moe/discord" },
+          { icon: "github", link: "https://github.com/Steins-Inn/Decs" },
+          { icon: "discord", link: "https://discord.gg/jx5Z6NfuTP" },
         ],
 
         editLink: {
-          pattern: "https://github.com/wyf9/vitepress-template/edit/main/:path",
+          pattern: "https://github.com/Steins-Inn/Docs/edit/main/:path",
           text: "Edit this page on GitHub",
         },
 
