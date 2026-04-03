@@ -19,9 +19,9 @@ features:
     title: AI Chat
     details: 52+ large models to choose from (GPT, Claude, Gemini, Grok, DouBao...)
   - icon: 🎨
-    title: Feature B
+    title: AI creation
     details: Proficient in drawing (Nano Banana / Doubao / Grok / Flux), composing (Suno / MiniMax), and generating videos (Wan / hailuo / Seedance)
   - icon: 🎭
     title: Tavern character card
-    details: Play Tavern directly in Discord! Full support for SillyTavern, including presets, world books, and memory systems. (Respect the tavern ecology: the character card is only visible to you and can be deleted at any time.)
+    details: "Play Tavern directly in Discord! Full support for SillyTavern, including presets, world books, and memory systems.(Respect the tavern ecology: the character card is only visible to you and can be deleted at any time.)"
 ---
