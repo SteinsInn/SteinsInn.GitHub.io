@@ -15,13 +15,13 @@ hero:
       link: https://discord.gg/jx5Z6NfuTP
 
 features:
-    -icon: ✨
+  - icon: ✨
     title: AI Chat
     details: 52+ large models to choose from (GPT, Claude, Gemini, Grok, DouBao...)
-    -icon: 🎨
+  - icon: 🎨
     title: Feature B
     details: Proficient in drawing (Nano Banana / Doubao / Grok / Flux), composing (Suno / MiniMax), and generating videos (Wan / hailuo / Seedance)
-    -icon: 🎭
+  - icon: 🎭
     title: Tavern character card
     details: Play Tavern directly in Discord! Full support for SillyTavern, including presets, world books, and memory systems. (Respect the tavern ecology: the character card is only visible to you and can be deleted at any time.)
 ---
