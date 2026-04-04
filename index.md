@@ -9,7 +9,7 @@ hero:
 
   actions:
     - theme: brand
-      text: Markdown 示例
+      text: 开始？？
       link: /markdown-examples
     - theme: alt
       text: Discord
