@@ -13,7 +13,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: "主页", link: "/" }],
-
+    // 以下为侧边栏内容
     sidebar: {
       ["/"]: [
         { text: "回到主页", link: "/" },

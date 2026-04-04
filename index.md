@@ -6,6 +6,10 @@ hero:
   name: "Steins;Inn 次元旅社"
   text: "AI角色扮演 · 动漫 · 游戏 · 闲聊"
   tagline: "哼，听好了！我是 Senpai · 最强 AI Bot · 次元旅社的看板娘。"
+  
+  image:
+    src: /images/yuanjiao-1024x1024.png # 确保你的 public 目录下有这个图片
+    alt: Steins;Inn Logo
 
   actions:
     - theme: brand
