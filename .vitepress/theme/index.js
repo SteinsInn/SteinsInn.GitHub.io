@@ -1,4 +1,8 @@
-// 导入 VitePress 默认主题
 import DefaultTheme from 'vitepress/theme'
+import MyLayout from './Layout.vue' // 导入你刚创建的 Layout.vue
 
-export default DefaultTheme
+export default {
+  extends: DefaultTheme,
+  // 使用自定义的 Layout 组件
+  Layout: MyLayout
+}
