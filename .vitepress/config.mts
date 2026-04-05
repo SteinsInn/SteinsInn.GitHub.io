@@ -168,7 +168,7 @@ export default defineConfig({
                     copyright: 'Copyright © 2026 Steins;Inn 次元旅社'
                   },
                   lastUpdated:{
-                    text: 'Updated at',
+                    text: 'Last update at',
                     formatOptions: {
                       dateStyle: 'full',
                       timeStyle: 'medium',
