@@ -49,7 +49,6 @@ export default defineConfig({
         ],
 
 
-
         // 搜索功能 https://vitepress.dev/zh/reference/default-theme-search
         search: {
           provider: 'local',
@@ -109,7 +108,7 @@ export default defineConfig({
             footer: {
               message: '本文档采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议',
               copyright: 'Copyright © 2026 <a href="https://github.com/SteinsInn">Steins;Inn 次元旅社</a>'
-                    },
+            },
           }
         },
 
@@ -125,32 +124,30 @@ export default defineConfig({
           themeConfig: {
             footer: {
               message: 'Released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License',
-              copyright: 'Copyright © 2026 <a href="https://github.com/Steins-Inn">Steins;Inn</a>',
+              copyright: 'Copyright © 2026 <a href="https://github.com/SteinsInn">Steins;Inn</a>',
                     },
               nav: [{ text: "Home", link: "/en/" }],
-
-            socialLinks: [
-              { icon: "github", link: "https://github.com/SteinsInn/SteinsInn.GitHub.io" },
-              { icon: "discord", link: "https://discord.gg/jx5Z6NfuTP" },
-            ],
-
-            editLink: {
-              pattern: "https://github.com/SteinsInn/SteinsInn.GitHub.io/edit/main/:path",
-              text: "Edit this page on GitHub",
-            },
 
             lastUpdated: {
               text: "Last updated at",
               formatOptions: {
                 dateStyle: "full",
                 timeStyle: "full",
+                // 强制使用英文区域，这样“星期日”就会变成 "Sunday"
+                forceLocale: true, 
               },
             },
+
+            editLink: {
+              pattern: "https://github.com/SteinsInn/SteinsInn.GitHub.io/edit/main/:path",
+              text: "Edit this page on GitHub",
+            },
+
           },
         },
       },
 
-      
+
       markdown: {
         image: {
           lazyLoading: true,
