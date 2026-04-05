@@ -68,7 +68,7 @@ export default defineConfig({
                 },
       }
     },
-    en_us: {
+    en: {
       label: "English",
       lang: "en",
       link: "/en/",
@@ -79,9 +79,9 @@ export default defineConfig({
       themeConfig: {
         footer: {
           message: 'Released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License',
-          copyright: 'Copyright © 2026 <a href="https://github.com/Steins-Inn">Steins;Inn</a>'
+          copyright: 'Copyright © 2026 <a href="https://github.com/Steins-Inn">Steins;Inn</a>',
                 },
-        nav: [{ text: "Home", link: "/en/" }],
+          nav: [{ text: "Home", link: "/en/" }],
     // 还需更改GitHub链接
         socialLinks: [
           { icon: "github", link: "https://github.com/SteinsInn/SteinsInn.GitHub.io" },
