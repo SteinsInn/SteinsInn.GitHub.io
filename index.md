@@ -17,7 +17,7 @@ hero:
       link: https://discord.gg/jx5Z6NfuTP
     - theme: alt
       text: 🔍 新客必看
-      link: /intro
+      link: /zh/intro
 
 
 features:

@@ -84,8 +84,8 @@ export default defineConfig({
                 themeConfig: {
                   nav: [
                     { text: "主页", link: "/" },
-                    { text: "入住指南", link: "/intro" },
-                    { text: "模型库", link: "/models" },
+                    { text: "入住指南", link: "/zh/intro" },
+                    { text: "模型库", link: "/zh/models" },
                     { text: "加入社区", link: "https://discord.gg/jx5Z6NfuTP" }
                   ],
                   // 以下为侧边栏内容
@@ -93,32 +93,31 @@ export default defineConfig({
                     {
                       text: "🏠 旅社新手村",
                       items: [
-                        { text: "新客必看 (Intro)", link: "/intro" },
-                        { text: "常见问题 (FAQ)", link: "/faq" },
-                        { text: "积分与任务系统", link: "/economy" }
+                        { text: "新客必看 (Intro)", link: "/zh/intro" },
+                        { text: "常见问题 (FAQ)", link: "/zh/faq" },
+                        { text: "积分与任务系统", link: "/zh/economy" }
                       ]
                     },
                     {
                       text: "🧪 AI 黑科技实验室",
                       items: [
-                        { text: "大模型百科", link: "/models" },
-                        { text: "多媒体创作 (视频/绘图)", link: "/creative" },
-                        { text: "酒馆与角色扮演", link: "/roleplay" }
+                        { text: "大模型百科", link: "/zh/models" },
+                        { text: "多媒体创作 (视频/绘图)", link: "/zh/creative" },
+                        { text: "酒馆与角色扮演", link: "/zh/roleplay" }
                       ]
                     },
                     {
                       text: "🎮 次元娱乐区",
                       items: [
-                        { text: "游戏厅玩法说明", link: "/games" },
-                        { text: "社区活动记录", link: "/events" }
+                        { text: "游戏厅玩法说明", link: "/zh/games" },
+                        { text: "社区活动记录", link: "/zh/events" }
                       ]
                     }
                   ],
                   footer: {
                     message: '本文档采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
-                    copyright: 'Copyright © 2026 Steins;Inn'
+                    copyright: 'Copyright © 2026 Steins;Inn 次元旅社'
                   },
-                  lastUpdatedText: "最后更新于",
                   editLink: {
                     pattern: "https://github.com/SteinsInn/SteinsInn.GitHub.io/edit/main/:path",
                     text: "在 GitHub 上编辑本页"
@@ -165,13 +164,19 @@ export default defineConfig({
                   ],
                   footer: {
                     message: 'Released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
-                    copyright: 'Copyright © 2026 Steins;Inn'
+                    copyright: 'Copyright © 2026 Steins;Inn 次元旅社'
                   },
-                  lastUpdatedText: "Last updated",
+                  lastUpdated:{
+                    text: 'Updated at',
+                    formatOptions: {
+                      dateStyle: 'full',
+                      timeStyle: 'medium'
+                    }
+                  },                  
                   editLink: {
-                    pattern: "https://github.com/SteinsInn/SteinsInn.GitHub.io/edit/main/:path",
-                    text: "Edit this page on GitHub"
-                  }
+                      pattern: "https://github.com/SteinsInn/SteinsInn.GitHub.io/edit/main/:path",
+                      text: "Edit this page on GitHub"
+                    }
                 }
               }
             }
