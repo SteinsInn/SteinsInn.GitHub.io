@@ -172,6 +172,7 @@ export default defineConfig({
                     formatOptions: {
                       dateStyle: 'full',
                       timeStyle: 'medium',
+                      forceLocale: true,
                     }
                   },                  
                   editLink: {
