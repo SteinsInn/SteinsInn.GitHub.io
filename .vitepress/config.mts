@@ -21,10 +21,9 @@ export default defineConfig({
           text: "示例文档",
           items: [
             { text: "Markdown 示例", link: "/markdown-examples" },
-            { text: "API 示例", link: "/api-examples" },
           ],
         },
-        { text: "Discord", link: "https://discord.gg/jx5Z6NfuTP" },
+        { text: "立马加入 Discord！", link: "https://discord.gg/jx5Z6NfuTP" },
       ],
       ["/en/"]: [
         { text: "Back to homepage", link: "/en/" },
@@ -32,20 +31,19 @@ export default defineConfig({
           text: "Example docs",
           items: [
             { text: "Markdown Examples", link: "/en/markdown-examples" },
-            { text: "API Examples", link: "/en/api-examples" },
           ],
         },
-        { text: "Outlink Test", link: "https://discord.gg/jx5Z6NfuTP" },
+        { text: "Join Discord Now!", link: "https://discord.gg/jx5Z6NfuTP" },
       ],
     },
-    // 还需更改GitHub链接
+    // 右上角的社交媒体
     socialLinks: [
-      { icon: "github", link: "https://github.com/Steins-Inn/Docs" },
+      { icon: "github", link: "https://github.com/SteinsInn/SteinsInn.GitHub.io" },
       { icon: "discord", link: "https://discord.gg/jx5Z6NfuTP" },
     ],
 
     editLink: {
-      pattern: "https://github.com/Steins-Inn/Docs/edit/main/:path",
+      pattern: "https://github.com/SteinsInn/SteinsInn.GitHub.io/edit/main/:path",
       text: "在 GitHub 上编辑本页",
     },
 
@@ -62,6 +60,13 @@ export default defineConfig({
     root: {
       label: "简体中文",
       lang: "zh",
+
+      themeConfig: {
+        footer: {
+           message: '本文档采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议',
+          copyright: 'Copyright © 2026 <a href="https://github.com/SteinsInn">Steins;Inn 次元旅社</a>'
+                },
+      }
     },
     en_us: {
       label: "English",
@@ -72,15 +77,19 @@ export default defineConfig({
       description: "AI Role Play · Anime · Game · Chat",
 
       themeConfig: {
+        footer: {
+          message: 'Released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License',
+          copyright: 'Copyright © 2026 <a href="https://github.com/Steins-Inn">Steins;Inn</a>'
+                },
         nav: [{ text: "Home", link: "/en/" }],
     // 还需更改GitHub链接
         socialLinks: [
-          { icon: "github", link: "https://github.com/Steins-Inn/Decs" },
+          { icon: "github", link: "https://github.com/SteinsInn/SteinsInn.GitHub.io" },
           { icon: "discord", link: "https://discord.gg/jx5Z6NfuTP" },
         ],
 
         editLink: {
-          pattern: "https://github.com/Steins-Inn/Docs/edit/main/:path",
+          pattern: "https://github.com/SteinsInn/SteinsInn.GitHub.io/edit/main/:path",
           text: "Edit this page on GitHub",
         },
 

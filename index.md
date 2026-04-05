@@ -4,20 +4,21 @@ layout: home
 
 hero:
   name: "Steins;Inn 次元旅社"
-  text: "AI角色扮演 · 动漫 · 游戏 · 闲聊"
-  tagline: "哼，听好了！我是 Senpai · 最强 AI Bot · 次元旅社的看板娘。"
+  text: "AI角色扮演·动漫·游戏·闲聊"
+  tagline: "哼，听好了！我是 Senpai·最强AI Bot·次元旅社的看板娘。"
   
   image:
-    src: /images/yuanjiao-1024x1024.png # 确保你的 public 目录下有这个图片
+    src: /images/r-1024x1024.png # 确保你的 public 目录下有这个图片
     alt: Steins;Inn Logo
 
   actions:
     - theme: brand
-      text: 开始？？
-      link: /markdown-examples
-    - theme: alt
-      text: Discord
+      text: 加入 Discord
       link: https://discord.gg/jx5Z6NfuTP
+    - theme: alt
+      text: 服务器介绍
+      link: /about
+
 
 features:
   - title: "✨ AI 对话"

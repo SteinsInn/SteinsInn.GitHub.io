@@ -6,13 +6,18 @@ hero:
   name: "Steins;Inn"
   text: "AI Role Play • Anime • Game • Chat"
   tagline: Hum, listen up! I am Senpai · The Strongest AI Bot · The receptionist of Dimension Hotel. <br> Although it is a free public welfare service, its functions are unambiguous!
+
+  image:
+    src: /images/r-1024x1024.png # 确保你的 public 目录下有这个图片
+    alt: Steins;Inn Logo
+    
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /en_us/markdown-examples
-    - theme: alt
-      text: Discord
+      text: Join Discord
       link: https://discord.gg/jx5Z6NfuTP
+    - theme: alt
+      text: Markdown Examples
+      link: /en/markdown-examples
 
 features:
   - icon: ✨
