@@ -20,11 +20,11 @@ export default defineConfig({
         // 以下为侧边栏内容
         sidebar: {
           ["/"]: [
-            { text: "回到主页", link: "/" },
+            { text: "返回主页", link: "/" },
             {
               text: "示例文档",
               items: [
-                { text: "Markdown 示例", link: "/markdown-examples" },
+                { text: "Markdown 示例", link: "/intro" },
               ],
             },
             { text: "立马加入 Discord！", link: "https://discord.gg/jx5Z6NfuTP" },

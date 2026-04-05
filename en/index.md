@@ -27,4 +27,29 @@ features:
     details: "Master of all: Image Generation (Nano Banana / Doubao / Grok / Flux), Music Composition (Suno / MiniMax), and Video Generation (Wan / hailuo / Seedance)."
   - title: "🎭 Tavern Character Cards"
     details: "Play Tavern directly in Discord! Full support for SillyTavern, including presets, world books, and memory systems. (Respecting the Tavern ecosystem: character cards are only visible to yourself and can be deleted at any time.)"
+
+  # 网页元数据 (SEO)
+head:
+- - meta
+  - property: og:type
+    content: website
+- - meta
+  - property: og:title
+    content: Steins;Inn 次元旅社
+- - meta
+  - property: og:image
+    content: https://steinsinn.pages.dev/images/r-1024x1024.png
+- - meta
+  - property: og:url
+    content: https://steinsinn.pages.dev/
+- - meta
+  - name: title
+    content: Steins;Inn 次元旅社
+- - meta
+  - name: twitter:card
+    content: https://steinsinn.pages.dev/images/r-1024x1024.png
+- - link
+  - rel: icon
+    type: image/icon
+    href: favicon.ico
 ---

@@ -27,4 +27,29 @@ features:
     details: "生图（Nano Banana / 豆包 / Grok / Flux）、作曲（Suno / MiniMax）、生成视频（Wan / hailuo / Seedance），样样精通"
   - title: "🎭 酒馆角色卡"
     details: "直接在 Discord 里玩酒馆！完整支持 SillyTavern，预设、世界书、记忆系统全都有。（尊重酒馆生态：角色卡仅自己可见，随时可删。）"
+
+    # 网页元数据 (SEO)
+head:
+- - meta
+  - property: og:type
+    content: website
+- - meta
+  - property: og:title
+    content: Steins;Inn 次元旅社
+- - meta
+  - property: og:image
+    content: https://steinsinn.pages.dev/images/r-1024x1024.png
+- - meta
+  - property: og:url
+    content: https://steinsinn.pages.dev/
+- - meta
+  - name: title
+    content: Steins;Inn 次元旅社
+- - meta
+  - name: twitter:card
+    content: https://steinsinn.pages.dev/images/r-1024x1024.png
+- - link
+  - rel: icon
+    type: image/icon
+    href: favicon.ico
 ---
