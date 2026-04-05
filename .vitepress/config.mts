@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
       title: "Steins;Inn 次元旅社",
       description: "AI角色扮演 · 动漫 · 游戏 · 闲聊",
-      // base: "/", // always ends with slash | 直译： base: "/", // 总是以斜杠结尾
+      // 这里是一个被注释掉的功能：  base: "/", 可以总是以斜杠结尾
       cleanUrls: true,
       head: [
         ["link", { rel: "icon", href: "/images/favicon.ico" }],
@@ -12,7 +12,7 @@ export default defineConfig({
       lastUpdated: true,
       themeConfig: {
         // 显示在主页右侧的logo?
-        logo: '/r-1024x1024.png',
+        logo: '/images/r-1024x1024.png',
         // https://vitepress.dev/reference/default-theme-config
         nav: [{ text: "主页", link: "/" }],
 

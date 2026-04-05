@@ -13,11 +13,11 @@ hero:
 
   actions:
     - theme: brand
-      text: 加入 Discord
+      text: 🚀 立马加入 Discord
       link: https://discord.gg/jx5Z6NfuTP
     - theme: alt
-      text: 服务器介绍
-      link: /about
+      text: 🔍 新客必看
+      link: /intro
 
 
 features:
