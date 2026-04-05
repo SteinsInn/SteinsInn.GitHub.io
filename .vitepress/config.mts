@@ -73,7 +73,7 @@ export default defineConfig({
           markdown: {
             image: {
               lazyLoading: true,
-            },
+            }
           },
 
           locales: {
@@ -81,25 +81,26 @@ export default defineConfig({
               root: {
                 label: "简体中文",
                 lang: "zh", 
+                link: "/zh/",
                 themeConfig: {
                   nav: [
                     { text: "主页", link: "/" },
-                    { text: "入住指南", link: "/zh/intro" },
+                    { text: "🏠 旅社入住指南", link: "/zh/intro" },
                     { text: "模型库", link: "/zh/models" },
                     { text: "加入社区", link: "https://discord.gg/jx5Z6NfuTP" }
                   ],
                   // 以下为侧边栏内容
                   sidebar: [
                     {
-                      text: "🏠 旅社新手村",
+                      text: "🏠 旅社入住指南",
                       items: [
-                        { text: "新客必看 (Intro)", link: "/zh/intro" },
+                        { text: "新客必看", link: "/zh/intro" },
                         { text: "常见问题 (FAQ)", link: "/zh/faq" },
                         { text: "积分与任务系统", link: "/zh/economy" }
                       ]
                     },
                     {
-                      text: "🧪 AI 黑科技实验室",
+                      text: "🤖 服务器有的AI模型",
                       items: [
                         { text: "大模型百科", link: "/zh/models" },
                         { text: "多媒体创作 (视频/绘图)", link: "/zh/creative" },
@@ -170,7 +171,7 @@ export default defineConfig({
                     text: 'Updated at',
                     formatOptions: {
                       dateStyle: 'full',
-                      timeStyle: 'medium'
+                      timeStyle: 'medium',
                     }
                   },                  
                   editLink: {
