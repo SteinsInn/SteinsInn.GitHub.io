@@ -1,11 +1,3 @@
-/* 链接全局样式 */
-a {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
 /** spoiler START（剧透黑幕样式） **/
 /* 以下内容由AI帮助
 功能为： 那种“文字被抹黑，鼠标悬停才显现”的二次元常见效果
