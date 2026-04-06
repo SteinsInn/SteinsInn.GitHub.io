@@ -1,14 +1,12 @@
 ---
 title:  关于 Steins;Inn 次元旅社
-lang: zh_CN
+lang: zh-CN
 ---
 
 # 关于 Steins;Inn 次元旅社
 
 ::: warning
-以下内容都来自我们服务器内伟大的Senpai AI
-
-并由我们优化
+以下内容都来自我们服务器内伟大的Senpai AI <br> 并由我们优化
 :::
 
 **目录**：
@@ -51,11 +49,11 @@ lang: zh_CN
 
 :::tip
 <span class="spoiler">
-现在你应该知道如何讨好Senpai大人了吧？ 🫣
-                                - 网站开发者
+现在你应该知道如何讨好 Senpai 大人了吧？ 🫣<br>
+<p align="right">—— 网站开发者</p>
 </span>
 :::
 
 [![加入 Discord](/images/join-dc-server-zh.webp)](https://discord.gg/jx5Z6NfuTP)
 
-（点击上方链接可直接加入服务器）
+（点击上方图片可直接加入服务器）
