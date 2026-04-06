@@ -81,7 +81,7 @@ export default defineConfig({
               // ==================== 简体中文配置 ====================
               root: {
                 label: "简体中文",
-                lang: "zh", 
+                lang: "zh-CN", 
                 link: "/zh/",
                 themeConfig: {
                   nav: [
@@ -121,7 +121,7 @@ export default defineConfig({
                     }
                   ],
                   footer: {
-                    message: '本文档采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
+                    message: '本网站上的所有内容均根据 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>',
                     copyright: 'Copyright © 2026 Steins;Inn 次元旅社'
                   },
                   editLink: {
@@ -134,11 +134,11 @@ export default defineConfig({
               // ==================== 英文配置 ====================
               en: {
                 label: "English",
-                lang: "en",
+                lang: "en-US",
                 link: "/en/",
                 themeConfig: {
                   nav: [
-                    { text: "Home", link: "/en/" },
+                    { text: "Home", link: "/en/"},
                     { text: "Join Discord", link: "https://discord.gg/jx5Z6NfuTP" }
                   ],
                   // 以下为侧边栏内容
@@ -153,7 +153,7 @@ export default defineConfig({
                     },
                   ],
                   footer: {
-                    message: 'Released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
+                    message: 'All content on this website released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>',
                     copyright: 'Copyright © 2026 Steins;Inn 次元旅社'
                   },
                   lastUpdated:{

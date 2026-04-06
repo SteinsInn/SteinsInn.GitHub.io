@@ -49,9 +49,9 @@ footer: true
 
 :::tip
 <span class="spoiler">
-现在你应该知道如何讨好 Senpai 大人了吧？(◠‿◕) <br>祝你好运喵
+现在你应该知道如何讨好 Senpai 大人了吧？(◠‿◕) <br>祝你好运喵 ฅ^•ﻌ•^ฅ
 </span>
-<div style="text-align:right; margin-top: 10px;">—— 网站开发者</div>
+<div style="text-align:right; left: 10px;">—— 网站开发者</div>
 :::
 
 [![加入 Discord](/images/join-dc-server-zh.webp)](https://discord.gg/jx5Z6NfuTP)
