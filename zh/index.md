@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Steins;Inn 次元旅社"
-  text: "AI角色扮演·动漫·游戏·闲聊"
+  text: "AI角色扮演·动漫 <br> 游戏·闲聊"
 #  tagline: "哼，听好了！我是 Senpai·最强AI Bot·次元旅社的看板娘。"
   
   image:
