@@ -1,6 +1,7 @@
 ---
 title:  关于 Steins;Inn 次元旅社
 lang: zh-CN
+footer: true
 ---
 
 # 关于 Steins;Inn 次元旅社
