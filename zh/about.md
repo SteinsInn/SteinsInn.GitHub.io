@@ -54,6 +54,6 @@ footer: true
 <div style="text-align:right; left: 10px;">—— 网站开发者</div>
 :::
 
-[![加入 Discord](/images/join-dc-server-zh.webp)](https://discord.gg/jx5Z6NfuTP)
+[![加入 Discord](/images/pages/zh_join-server_4k.jpg)](https://discord.gg/jx5Z6NfuTP)
 
 （点击上方图片可直接加入服务器）
