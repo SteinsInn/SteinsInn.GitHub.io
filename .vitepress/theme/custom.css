@@ -1,0 +1,20 @@
+/** spoiler START
+以下内容由AI帮助
+功能为： 那种“文字被抹黑，鼠标悬停才显现”的二次元常见效果
+
+如何使用？
+在文章里这样写：
+那家伙其实是个 <span class="spoiler">傲娇</span>。
+
+**/
+.spoiler {
+  background-color: #555;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.spoiler:hover {
+  color: #fff;
+}
+/** spoiler END**/
