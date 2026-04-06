@@ -67,7 +67,6 @@ export default defineConfig({
               dateStyle: "full",
               timeStyle: "full",
               forceLocale: true,
-
               },
             },
           },
@@ -87,7 +86,7 @@ export default defineConfig({
                 themeConfig: {
                   nav: [
                     { text: "首页", link: "/zh" },
-                    { text: "🏠 指南", link: "/zh/guide" },
+                    { text: "指南", link: "/zh/guide" },
                     { text: "模型库", link: "/zh/features" },
                     { text: "常见问题", link: "/zh/faq" },
                     { text: "加入我们", link: "https://discord.gg/jx5Z6NfuTP" }
@@ -95,26 +94,29 @@ export default defineConfig({
                   // 以下为侧边栏内容
                   sidebar: [
                     {
-                      text: "🏠 指南",
+                      text: "🧭 指南",
                       items: [
-                        { text: "新客必看", link: "/zh/guide/getting-started" },
-                        { text: "常见问题 (FAQ)", link: "/zh/faq" },
-                        { text: "积分与任务系统", link: "/zh/economy" }
+                        { text: "新手入门", link: "/zh/guide/getting-started" },
+                        { text: "积分系统", link: "/zh/guide/points-system" },
+                        { text: "任务系统", link: "/zh/guide/quest-system" },
+                        { text: "社区规则", link: "/zh/guide/rules" },
                       ]
                     },
                     {
-                      text: "🤖 服务器有的AI模型",
+                      text: "🛠️ 功能",
                       items: [
-                        { text: "大模型百科", link: "/zh/models" },
-                        { text: "多媒体创作 (视频/绘图)", link: "/zh/creative" },
-                        { text: "酒馆与角色扮演", link: "/zh/roleplay" }
+                        { text: "AI对话", link: "/zh/features/ai-chat" },
+                        { text: "图片生成", link: "/zh/features/image-gen" },
+                        { text: "音乐生成", link: "/zh/features/music-gen" },
+                        { text: "视频生成", link: "/zh/features/video-gen" },
+                        { text: "语音合成", link: "/zh/features/tts" },
+                        { text: "Role Play", link: "/zh/features/roleplay" }
                       ]
                     },
                     {
-                      text: "🎮 次元娱乐区",
+                      text: "❓ 常见问题",
                       items: [
-                        { text: "游戏厅玩法说明", link: "/zh/games" },
-                        { text: "社区活动记录", link: "/zh/events" }
+                        { text: "FAQ", link: "/zh/faq" },
                       ]
                     }
                   ],
