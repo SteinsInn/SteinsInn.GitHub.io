@@ -66,6 +66,8 @@ export default defineConfig({
             formatOptions: {
               dateStyle: "full",
               timeStyle: "full",
+              forceLocale: true,
+
               },
             },
           },
@@ -84,17 +86,18 @@ export default defineConfig({
                 link: "/zh/",
                 themeConfig: {
                   nav: [
-                    { text: "主页", link: "/" },
-                    { text: "🏠 旅社入住指南", link: "/zh/intro" },
-                    { text: "模型库", link: "/zh/models" },
-                    { text: "加入社区", link: "https://discord.gg/jx5Z6NfuTP" }
+                    { text: "首页", link: "/zh" },
+                    { text: "🏠 指南", link: "/zh/guide" },
+                    { text: "模型库", link: "/zh/features" },
+                    { text: "常见问题", link: "/zh/faq" },
+                    { text: "加入我们", link: "https://discord.gg/jx5Z6NfuTP" }
                   ],
                   // 以下为侧边栏内容
                   sidebar: [
                     {
-                      text: "🏠 旅社入住指南",
+                      text: "🏠 指南",
                       items: [
-                        { text: "新客必看", link: "/zh/intro" },
+                        { text: "新客必看", link: "/zh/guide/getting-started" },
                         { text: "常见问题 (FAQ)", link: "/zh/faq" },
                         { text: "积分与任务系统", link: "/zh/economy" }
                       ]
@@ -134,8 +137,6 @@ export default defineConfig({
                 themeConfig: {
                   nav: [
                     { text: "Home", link: "/en/" },
-                    { text: "Guide", link: "/en/intro" },
-                    { text: "Models", link: "/en/models" },
                     { text: "Join Discord", link: "https://discord.gg/jx5Z6NfuTP" }
                   ],
                   // 以下为侧边栏内容
@@ -148,20 +149,6 @@ export default defineConfig({
                         { text: "Points & Economy", link: "/en/economy" }
                       ]
                     },
-                    {
-                      text: "🧪 AI Technology Lab",
-                      items: [
-                        { text: "Model Encyclopedia", link: "/en/models" },
-                        { text: "Multimedia Creation", link: "/en/creative" },
-                        { text: "Tavern & Roleplay", link: "/en/roleplay" }
-                      ]
-                    },
-                    {
-                      text: "🎮 Entertainment Zone",
-                      items: [
-                        { text: "Game Rules", link: "/en/games" }
-                      ]
-                    }
                   ],
                   footer: {
                     message: 'Released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
