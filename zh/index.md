@@ -18,6 +18,9 @@ hero:
     - theme: alt
       text: 快速开始
       link: /zh/guide/getting-started
+    - theme: alt
+      text: 关于 Steins;Inn
+      link: /zh/about
 
 
 features:

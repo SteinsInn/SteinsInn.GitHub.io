@@ -86,10 +86,10 @@ export default defineConfig({
                 themeConfig: {
                   nav: [
                     { text: "首页", link: "/zh" },
-                    { text: "指南", link: "/zh/guide" },
-                    { text: "模型库", link: "/zh/features" },
-                    { text: "常见问题", link: "/zh/faq" },
-                    { text: "加入我们", link: "https://discord.gg/jx5Z6NfuTP" }
+                    { text: "🧭 指南", link: "/zh/guide" },
+                    { text: "🛠️ 功能", link: "/zh/features" },
+                    { text: "❓ 常见问题", link: "/zh/faq" },
+                    { text: "加入服务器", link: "https://discord.gg/jx5Z6NfuTP" }
                   ],
                   // 以下为侧边栏内容
                   sidebar: [
