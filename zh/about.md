@@ -10,7 +10,6 @@ lang: zh-CN
 :::
 
 **目录**：
-
 [[toc]]
 
 ## 🏠 欢迎来到次元旅社
@@ -49,9 +48,9 @@ lang: zh-CN
 
 :::tip
 <span class="spoiler">
-现在你应该知道如何讨好 Senpai 大人了吧？ 🫣<br>
-<p align="right">—— 网站开发者</p>
+现在你应该知道如何讨好 Senpai 大人了吧？(◠‿◕) <br>祝你好运喵
 </span>
+<div style="text-align:right; margin-top: 10px;">—— 网站开发者</p>
 :::
 
 [![加入 Discord](/images/join-dc-server-zh.webp)](https://discord.gg/jx5Z6NfuTP)
