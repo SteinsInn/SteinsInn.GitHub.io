@@ -89,7 +89,7 @@ export default defineConfig({
                     { text: "🧭 指南", link: "/zh/guide" },
                     { text: "🛠️ 功能", link: "/zh/features" },
                     { text: "❓ 常见问题", link: "/zh/faq" },
-                    { text: "ℹ️ 关于 Steins;Inn 次元旅社", link: "/zh/about" },
+                    { text: "ℹ️ 关于", link: "/zh/about" },
                     { text: "加入服务器", link: "https://discord.gg/jx5Z6NfuTP" }
                   ],
                   // 以下为侧边栏内容
