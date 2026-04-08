@@ -115,9 +115,10 @@ export default defineConfig({
                       ]
                     },
                     {
-                      text: "❓ 常见问题",
+                      text: "📚 帮助与信息",
                       items: [
                         { text: "FAQ", link: "/zh/faq" },
+                        { text: "关于", link: "/zh/about" },
                       ]
                     }
                   ],
