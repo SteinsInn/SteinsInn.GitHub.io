@@ -6,7 +6,7 @@
 在文章里这样写：
 那家伙其实是个 <span class="spoiler">傲娇</span>。
 */
-.spoiler {
+.jutou {
   background-color: #333; /* 暗色遮盖 */
   color: #333;           /* 文字颜色与背景一致 */
   cursor: pointer;
@@ -15,7 +15,7 @@
   padding: 0 2px;
 }
 
-.spoiler:hover {
+.jutou:hover {
   background-color: transparent; /* 悬停显示文字 */
   color: inherit;
 }

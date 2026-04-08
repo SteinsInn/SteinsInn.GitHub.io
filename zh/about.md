@@ -48,7 +48,7 @@ footer: true
 - **专长**：物理学、时间理论、各种科技话题
 
 :::tip 
-<span class="spoiler">
+<span class="jutou">
 现在你应该知道如何讨好 Senpai 大人了吧？(◠‿◕) <br>祝你好运喵 ฅ^•ﻌ•^ฅ
 </span>
 <div style="text-align:right; left: 10px;">—— 网站开发者</div>
