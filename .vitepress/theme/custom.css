@@ -20,3 +20,21 @@
   color: inherit;
 }
 /** spoiler END（剧透黑幕样式） **/
+
+
+/** img-yuan START（图片加卡片感 + 悬浮效果）**/
+/* 以下内容与代码为AI（ChatGPT）生成
+效果：
+平时：干净圆角
+鼠标放上去：轻微浮起 + 阴影 😎
+*/
+.img-yuan {
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.img-yuan:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+/**img-yuan END（图片加卡片感 + 悬浮效果）**/
