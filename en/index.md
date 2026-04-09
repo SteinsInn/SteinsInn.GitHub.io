@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Steins;Inn"
   text: "AI Roleplay·Anime<br>Games·Chat"
-  tagline: "Hmph, listen up! I am Senpai, the strongest AI Bot, and the poster girl of the Steins;Inn."
+ # tagline: "Hmph, listen up! I am Senpai, the strongest AI Bot, and the poster girl of the Steins;Inn."
   
   image:
     src: /images/r-1024x1024.png

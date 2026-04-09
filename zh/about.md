@@ -6,8 +6,8 @@ footer: true
 
 # 关于 Steins;Inn 次元旅社
 
-::: warning
-以下内容都来自我们服务器内伟大的Senpai AI <br> 并由我们优化
+::: warning 小提示
+以下内容都来自我们服务器内伟大的Senpai AI，<br> 并由网站开发者们优化。
 :::
 
 **目录**：
@@ -47,8 +47,8 @@ footer: true
 
 - **专长**：物理学、时间理论、各种科技话题
 
-:::tip
-<span class="spoiler">
+:::tip 
+<span class="jutou">
 现在你应该知道如何讨好 Senpai 大人了吧？(◠‿◕) <br>祝你好运喵 ฅ^•ﻌ•^ฅ
 </span>
 <div style="text-align:right; left: 10px;">—— 网站开发者</div>

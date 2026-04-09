@@ -2,7 +2,7 @@
 
 For self-use mainly.
 
-Preview: [vitepress-template.wyf9.top](https://vitepress-template.wyf9.top)
+Preview: [Pages.Dev](https://steinsinn.pages.dev)
 
 ## Quick start
 

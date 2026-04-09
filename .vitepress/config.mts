@@ -89,6 +89,7 @@ export default defineConfig({
                     { text: "🧭 指南", link: "/zh/guide" },
                     { text: "🛠️ 功能", link: "/zh/features" },
                     { text: "❓ 常见问题", link: "/zh/faq" },
+                    { text: "🍻 关于", link: "/zh/about" },
                     { text: "加入服务器", link: "https://discord.gg/jx5Z6NfuTP" }
                   ],
                   // 以下为侧边栏内容
@@ -114,9 +115,10 @@ export default defineConfig({
                       ]
                     },
                     {
-                      text: "❓ 常见问题",
+                      text: "📚 帮助与信息",
                       items: [
                         { text: "FAQ", link: "/zh/faq" },
+                        { text: "关于", link: "/zh/about" },
                       ]
                     }
                   ],
