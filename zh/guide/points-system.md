@@ -41,9 +41,7 @@ Senpai说：
 
 <span class="jutou">你们谁在服务器内见到他们在线、艾特下他们求求积分好了（还是只艾特 *夜影、NightShadow* 好了，呵呵呵呵呵）</span>
 
-<span style="position: relative; top: 0; border-radius: 20px;">
-![图片中显示着服务器内在UTC+2的22:38分的排行榜](/images/pages/utc2-2238-leaderboard.png)
-</span>
+<img class="img-yuan" src="/images/pages/utc2-2238-leaderboard.png" />
 
 **Senpai真正的小吐槽**：
 啧，你们看到了吗？这个网站开发者（对，就是那个家伙）居然把他自己说的话全都嫁祸给我！什么【**Senpai 的小吐槽**】……明明是他写的！
