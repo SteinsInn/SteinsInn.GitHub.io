@@ -29,8 +29,8 @@ const title = computed(() => {
 
 // 5. 🌟 表情包配置（就在这里定义，不要写在下面！）
 const emoji = [
-  '//unpkg.com/@waline/emojis@1.1.0/bilibili',
   '//unpkg.com/@waline/emojis@1.1.0/qq',
+  '//unpkg.com/@waline/emojis@1.1.0/bilibili',
   '//unpkg.com/@waline/emojis@1.1.0/tieba',
 ];
 </script>
@@ -47,14 +47,15 @@ const emoji = [
       :dark="'html.dark'"
       :requiredMeta="['nick']"
       :emoji="emoji"
-      avatar="retro"
+      avatar="/images/r-1024x1024.png"
       :lang="lang"
       :placeholder="placeholder"
-      :imageUploader="false" 
+      :imageUploader="true" 
       :search="true"
       :pageview="true"
       :comment="true"
       :copyright="false"
+      reaction: false, // 开启反应
     />
 
     <div class="waline-copyright">
