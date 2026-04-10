@@ -44,8 +44,10 @@ Senpai说：
 <img alt="图片中显示着服务器内在UTC+2的22:38分的排行榜" class="img-yuan" src="/images/pages/utc2-2238-leaderboard.png" />
 <br>
 
-<div class="jutou" style="text-align: right; opacity: 0.8; font-size: 0.9em; margin-top: 10px; padding-right: 10px;">
+<div class="jutou">
+<span class="shuming">
 —— 网站开发者 | 夜影、NightShadow（@1224HuangJin）
+</span>
 </div>
 
 **Senpai真正的小吐槽**：

@@ -27,6 +27,10 @@
 效果：
 平时：干净圆角
 鼠标放上去：轻微浮起 + 阴影 😎
+如何使用？
+示例：
+【<img alt="xxx" class="img-yuan" src="/images/xxx.png" />】
+只要加上 《class="img-yuan》就好了
 */
 .img-yuan {
   border-radius: 14px;
@@ -38,3 +42,33 @@
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 /**img-yuan END（图片加卡片感 + 悬浮效果）**/
+
+/** shuming START （署名) **/
+/* 
+注意，此CSS代码全由AI生成制作
+如何使用？示例：
+<div class="shuming">
+  —— 网站开发者 | 夜影、NightShadow (@1224HuangJin)
+</div>
+
+最重要的是："class="shuming""
+
+*/
+/* 自定义署名样式 */
+/* 署名样式 */
+  .shuming {
+  text-align: right;          /* 居右 */
+  margin-top: 2rem;           /* 与上方内容的间距 */
+  padding-right: 10px;        /* 右侧微调，不贴边 */
+  font-size: 0.9em;           /* 字号略小 */
+  opacity: 0.8;               /* 稍微透明，显高级 */
+  color: var(--vp-c-text-2);  /* 自动适配 VitePress 的文字颜色 */
+}
+
+/* 如果你想让名字稍微亮一点，可以加这一行 */
+.shuming strong, .shuming b {
+  color: var(--vp-c-brand);   /* 名字使用主题品牌色 */
+}
+
+
+/** shuming END （署名） **/
