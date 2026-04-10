@@ -28,8 +28,7 @@ const emoji = [
     <Waline 
       :serverURL="serverURL" 
       :path="path" 
-      :dark="true"
-      placeholder="此地乃次元旅社，請留下你的旅者傳聞...（支持 Markdown）"
+      :dark="'html.dark'"
       :requiredMeta="['nick']"
       :emoji="emoji"
       :imageUploader="false" 
@@ -43,42 +42,35 @@ const emoji = [
 
 <style>
 /* =========================================
-   全局样式深度优化：完美融入次元旅社
+   清爽通透风：去掉厚重背景，融入页面
    ========================================= */
 
 .waline-integration {
   margin-top: 4rem;
-  padding: 2rem;
-  background-color: var(--vp-c-bg-soft);
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  /* 🌟 去掉黑底，改用一条优雅的顶部过渡线 */
+  padding-top: 3rem;
+  border-top: 1px dashed var(--vp-c-divider);
 }
 
 .waline-title h3 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 1.2rem;
   color: var(--vp-c-brand-1);
   font-weight: 600;
-  text-align: center;
 }
 
 /* 覆盖 Waline 的自带变量，强制使用 VitePress 的主题色 */
 :root {
   --waline-theme-color: var(--vp-c-brand-1) !important;
   --waline-active-color: var(--vp-c-brand-2) !important;
+  
+  /* 🌟 让输入框在白天看起来更白静，晚上更深邃，不瞎眼 */
+  --waline-bgcolor: transparent !important;
+  --waline-bgcolor-light: var(--vp-c-bg-alt) !important;
   --waline-border-color: var(--vp-c-divider) !important;
-  --waline-white: transparent !important;
-  --waline-bgcolor-light: var(--vp-c-bg-alt) !important;
 }
 
-/* 深色模式适配 */
-.dark :root {
-  --waline-bgcolor: var(--vp-c-bg) !important;
-  --waline-bgcolor-light: var(--vp-c-bg-alt) !important;
-  --waline-text-color: var(--vp-c-text-1) !important;
-}
-
-/* 输入框圆角与边框动画 */
+/* 输入框圆角与获取焦点时的边框颜色 */
 .wl-editor {
   border-radius: 8px !important;
   transition: all 0.3s ease !important;
@@ -87,13 +79,13 @@ const emoji = [
   border-color: var(--vp-c-brand-1) !important;
 }
 
-/* 按钮美化 */
+/* 按钮变圆润一点 */
 .wl-btn {
   border-radius: 6px !important;
   font-weight: bold !important;
 }
 
-/* 隐藏无关信息，保持界面纯净 */
+/* 隐藏不必要的版权信息 */
 .wl-power {
   display: none !important;
 }
