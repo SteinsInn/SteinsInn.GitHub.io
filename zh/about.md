@@ -54,7 +54,7 @@ footer: true
 </span>
 <div style="text-align: right; opacity: 0.8; font-size: 0.9em; margin-top: 10px; padding-right: 10px;">
   —— 网站开发者 | 夜影、NightShadow（@1224HuangJin）
-<div>
+</div
 :::
 
 ---
