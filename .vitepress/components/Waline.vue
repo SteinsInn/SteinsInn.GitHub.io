@@ -20,7 +20,6 @@ import '@waline/client/style';
 import { Waline } from '@waline/client/component';
 import { computed } from 'vue';
 import { useRoute } from 'vitepress';
-import '@waline/client/dist/waline.css';
 
 // 1. 填入你的后端地址
 const serverURL = 'https://你的地址.workers.dev'; 
