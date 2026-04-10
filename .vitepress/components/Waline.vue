@@ -24,23 +24,16 @@ const emoji = [
 <template>
   <div class="waline-integration">
     <div class="waline-title">
-      <h3>💬 旅者留言板</h3>
+      <h3>💬 评论区</h3>
     </div>
     
     <Waline 
       :serverURL="serverURL" 
       :path="path" 
       :dark="'html.dark'"
-      lang="zh-CN"
-      placeholder="此地乃次元旅社，請留下你的旅者傳聞...（支持 Markdown）"
       :requiredMeta="['nick', 'mail']"
       :emoji="emoji"
-
-      /* 🌟 头像设置 */
-      /* 如果你想让没头像的人显示一张固定的二次元图，可以把下面的 'retro' 改成图片链接 */
-      /* 例如 avatar="https://your-image-url.png" */
       avatar="retro" 
-      
       :imageUploader="false" 
       :search="true"
       :pageview="true"
@@ -82,7 +75,6 @@ const emoji = [
   font-style: italic;
 }
 
-/* 颜色变量适配 */
 :root {
   --waline-theme-color: var(--vp-c-brand-1) !important;
   --waline-active-color: var(--vp-c-brand-2) !important;
@@ -91,7 +83,6 @@ const emoji = [
   --waline-border-color: var(--vp-c-divider) !important;
 }
 
-/* 输入框聚焦效果 */
 .wl-editor {
   border-radius: 12px !important;
   background: var(--vp-c-bg-soft) !important;
@@ -103,12 +94,10 @@ const emoji = [
   background: var(--vp-c-bg) !important;
 }
 
-/* 按钮变圆润 */
 .wl-btn {
   border-radius: 20px !important;
 }
 
-/* 隐藏版权 */
 .wl-power {
   display: none !important;
 }
