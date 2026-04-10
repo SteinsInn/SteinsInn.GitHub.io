@@ -27,12 +27,13 @@ const title = computed(() => {
   return lang.value === 'en-US' ? '💬 Comments' : '💬 评论区';
 });
 
+// 🌟 表情包配置（补全了 https: 协议，防止某些环境下加载失败）
 const emoji = [
-  '//unpkg.com/@waline/emojis@1.1.0/weibo',
-  '//unpkg.com/@waline/emojis@1.1.0/bilibili',
-  '//unpkg.com/@waline/emojis@1.1.0/qq',
-  '//unpkg.com/@waline/emojis@1.1.0/tieba',
-  '//unpkg.com/@waline/emojis@1.1.0/twemoji',
+  'https://unpkg.com/@waline/emojis@1.1.0/weibo',
+  'https://unpkg.com/@waline/emojis@1.1.0/bilibili',
+  'https://unpkg.com/@waline/emojis@1.1.0/qq',
+  'https://unpkg.com/@waline/emojis@1.1.0/tieba',
+  'https://unpkg.com/@waline/emojis@1.1.0/twemoji',
 ];
 </script>
 
