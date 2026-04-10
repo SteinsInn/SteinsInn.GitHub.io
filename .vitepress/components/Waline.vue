@@ -3,19 +3,21 @@ import { Waline } from '@waline/client/component';
 import { computed } from 'vue';
 import { useRoute } from 'vitepress';
 
-// ✅ 彻底修复样式丢失问题：引入 V3 版本的官方样式
+// 引入官方样式
 import '@waline/client/style';
 
-// 填入你 Vercel 部署成功后的最终域名 (例如：https://your-domain.vercel.app)
 const serverURL = 'https://steinsinn-waline-comment.vercel.app'; 
 
 const route = useRoute();
 const path = computed(() => route.path);
 
-// 表情包配置
+// 🌟 扩充后的海量表情包
 const emoji = [
   '//unpkg.com/@waline/emojis@1.1.0/weibo',
   '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+  '//unpkg.com/@waline/emojis@1.1.0/qq',
+  '//unpkg.com/@waline/emojis@1.1.0/tieba',
+  '//unpkg.com/@waline/emojis@1.1.0/twemoji',
 ];
 </script>
 
@@ -29,25 +31,36 @@ const emoji = [
       :serverURL="serverURL" 
       :path="path" 
       :dark="'html.dark'"
-      :requiredMeta="['nick']"
+      lang="zh-CN"
+      placeholder="此地乃次元旅社，請留下你的旅者傳聞...（支持 Markdown）"
+      :requiredMeta="['nick', 'mail']"
       :emoji="emoji"
+
+      /* 🌟 头像设置 */
+      /* 如果你想让没头像的人显示一张固定的二次元图，可以把下面的 'retro' 改成图片链接 */
+      /* 例如 avatar="https://your-image-url.png" */
+      avatar="retro" 
+      
       :imageUploader="false" 
       :search="true"
       :pageview="true"
       :comment="true"
       :copyright="false"
     />
+    
+    <div class="shuming">
+      —— Steins;Inn 次元旅社
+    </div>
   </div>
 </template>
 
 <style>
 /* =========================================
-   清爽通透风：去掉厚重背景，融入页面
+   清爽通透风：美化与适配
    ========================================= */
 
 .waline-integration {
   margin-top: 4rem;
-  /* 🌟 去掉黑底，改用一条优雅的顶部过渡线 */
   padding-top: 3rem;
   border-top: 1px dashed var(--vp-c-divider);
 }
@@ -57,35 +70,45 @@ const emoji = [
   font-size: 1.2rem;
   color: var(--vp-c-brand-1);
   font-weight: 600;
+  text-align: center;
 }
 
-/* 覆盖 Waline 的自带变量，强制使用 VitePress 的主题色 */
+.shuming {
+  margin-top: 2rem;
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* 颜色变量适配 */
 :root {
   --waline-theme-color: var(--vp-c-brand-1) !important;
   --waline-active-color: var(--vp-c-brand-2) !important;
-  
-  /* 🌟 让输入框在白天看起来更白静，晚上更深邃，不瞎眼 */
   --waline-bgcolor: transparent !important;
   --waline-bgcolor-light: var(--vp-c-bg-alt) !important;
   --waline-border-color: var(--vp-c-divider) !important;
 }
 
-/* 输入框圆角与获取焦点时的边框颜色 */
+/* 输入框聚焦效果 */
 .wl-editor {
-  border-radius: 8px !important;
+  border-radius: 12px !important;
+  background: var(--vp-c-bg-soft) !important;
   transition: all 0.3s ease !important;
 }
+
 .wl-editor:focus {
   border-color: var(--vp-c-brand-1) !important;
+  background: var(--vp-c-bg) !important;
 }
 
-/* 按钮变圆润一点 */
+/* 按钮变圆润 */
 .wl-btn {
-  border-radius: 6px !important;
-  font-weight: bold !important;
+  border-radius: 20px !important;
 }
 
-/* 隐藏不必要的版权信息 */
+/* 隐藏版权 */
 .wl-power {
   display: none !important;
 }
