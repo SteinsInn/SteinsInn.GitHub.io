@@ -6,17 +6,86 @@
 在文章里这样写：
 那家伙其实是个 <span class="spoiler">傲娇</span>。
 */
+
+/** spoiler START（剧透黑幕样式 - 终极全遮盖版） **/
 .jutou {
-  background-color: #333; /* 暗色遮盖 */
-  color: #333;           /* 文字颜色与背景一致 */
+  background-color: #333;      /* 遮罩颜色 */
+  color: transparent !important; /* 强制文字透明 */
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 3px;
   padding: 0 2px;
 }
 
-.jutou:hover {
-  background-color: transparent; /* 悬停显示文字 */
-  color: inherit;
+/* 核心：强制遮住里面所有的链接、加粗等子元素 */
+.jutou * {
+  color: transparent !important;
+  text-decoration: none !important; /* 隐藏链接下划线 */
+  transition: all 0.3s ease;
 }
+
+/* 悬停恢复 */
+.jutou:hover {
+  background-color: transparent;
+  color: var(--vp-c-text-1) !important; /* 恢复主文字颜色 */
+}
+
+.jutou:hover * {
+  color: inherit !important;       /* 内部链接、加粗恢复原本颜色 */
+  text-decoration: underline;      /* 恢复链接下划线（如果有的话） */
+}
+/** spoiler END **/
 /** spoiler END（剧透黑幕样式） **/
+
+
+/** img-yuan START（图片加卡片感 + 悬浮效果）**/
+/* 以下内容与代码为AI（ChatGPT）生成
+效果：
+平时：干净圆角
+鼠标放上去：轻微浮起 + 阴影 😎
+如何使用？
+示例：
+【<img alt="xxx" class="img-yuan" src="/images/xxx.png" />】
+只要加上 《class="img-yuan》就好了
+*/
+.img-yuan {
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.img-yuan:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+/**img-yuan END（图片加卡片感 + 悬浮效果）**/
+
+/** shuming START （署名) **/
+/* 
+注意，此CSS代码全由AI生成制作
+如何使用？示例：
+<div class="shuming">
+  —— 网站开发者 | 夜影、NightShadow (@1224HuangJin)
+</div>
+
+最重要的是：《class="shuming"》
+
+*/
+/* 自定义署名样式 */
+/* 署名样式 */
+/* 自定义署名样式 */
+.shuming {
+  display: block;             /* 👈 加上这句！让 span 和 div 都能完美居右和换行 */
+  text-align: right;          /* 居右 */
+  margin-top: 2rem;           /* 与上方内容的间距 */
+  padding-right: 10px;        /* 右侧微调，不贴边 */
+  font-size: 0.9em;           /* 字号略小 */
+  opacity: 0.8;               /* 稍微透明，显高级 */
+  color: var(--vp-c-text-2);  /* 自动适配 VitePress 的文字颜色 */
+}
+
+/* 如果你想让名字稍微亮一点，可以加这一行 */
+.shuming strong, .shuming b {
+  color: var(--vp-c-brand);   /* 名字使用主题品牌色 */
+}
+/** shuming END （署名） **/
+/** shuming END （署名） **/
