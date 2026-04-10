@@ -1,3 +1,5 @@
+import '@waline/client/dist/waline.css';
+
 <template>
   <div class="waline-container">
     <Waline 
