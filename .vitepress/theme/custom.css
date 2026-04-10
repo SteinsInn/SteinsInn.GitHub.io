@@ -6,19 +6,35 @@
 在文章里这样写：
 那家伙其实是个 <span class="spoiler">傲娇</span>。
 */
+
+/** spoiler START（剧透黑幕样式 - 终极全遮盖版） **/
 .jutou {
-  background-color: #333; /* 暗色遮盖 */
-  color: transparent;           /* 文字颜色与背景一致 */
+  background-color: #333;      /* 遮罩颜色 */
+  color: transparent !important; /* 强制文字透明 */
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 3px;
   padding: 0 2px;
 }
 
-.jutou:hover {
-  background-color: transparent; /* 悬停显示文字 */
-  color: inherit;
+/* 核心：强制遮住里面所有的链接、加粗等子元素 */
+.jutou * {
+  color: transparent !important;
+  text-decoration: none !important; /* 隐藏链接下划线 */
+  transition: all 0.3s ease;
 }
+
+/* 悬停恢复 */
+.jutou:hover {
+  background-color: transparent;
+  color: var(--vp-c-text-1) !important; /* 恢复主文字颜色 */
+}
+
+.jutou:hover * {
+  color: inherit !important;       /* 内部链接、加粗恢复原本颜色 */
+  text-decoration: underline;      /* 恢复链接下划线（如果有的话） */
+}
+/** spoiler END **/
 /** spoiler END（剧透黑幕样式） **/
 
 
@@ -51,7 +67,7 @@
   —— 网站开发者 | 夜影、NightShadow (@1224HuangJin)
 </div>
 
-最重要的是：《class="shuming"》和《<div>》
+最重要的是：《class="shuming"》
 
 */
 /* 自定义署名样式 */
