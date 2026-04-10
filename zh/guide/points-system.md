@@ -267,6 +267,6 @@ Kling Video O1 Pro (快手) - *5.0倍* = **1000 积分**
 
 ---
 
-[![加入 Discord](/images/pages/zh_join-server_4k.jpg)](https://discord.gg/jx5Z6NfuTP)
+[![加入 Discord](/images/pages/zh_join-server_4k.png)](https://discord.gg/jx5Z6NfuTP)
 
 （点击上方图片可直接加入服务器）
