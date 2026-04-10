@@ -8,7 +8,6 @@ lang: "zh-CN"
 :::
 > 欢迎来到 Steins;Inn · 次元旅社
 > "世界线的收敛，将我们带到了同一个时空。"
-:::
 
 **目录**：
 [[TOC]]
@@ -45,7 +44,6 @@ lang: "zh-CN"
 👉 [立即查看完整指南](/zh/features/ai-chat)
 :::
 
----
 
 ## 🎨 用 AI 创造一切
 
@@ -178,6 +176,9 @@ lang: "zh-CN"
 
 ---
 
-[![加入 Discord](/images/pages/zh_join-server_4k.jpg)](https://discord.gg/jx5Z6NfuTP)
-
+<div class="img-yuan">
+  <a href="https://discord.gg/jx5Z6NfuTP">
+    <img src="/images/pages/zh_join-server_4k.jpg" alt="加入 Discord" />
+  </a>
+</div>
 （点击上方图片可直接加入服务器）
