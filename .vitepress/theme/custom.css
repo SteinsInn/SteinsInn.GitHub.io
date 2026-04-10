@@ -79,7 +79,7 @@
   margin-top: 2rem;           /* 与上方内容的间距 */
   padding-right: 10px;        /* 右侧微调，不贴边 */
   font-size: 0.9em;           /* 字号略小 */
-  opacity: 0.8;               /* 稍微透明，显高级 */
+  opacity: 0.9;               /* 稍微透明，显高级 */
   color: var(--vp-c-text-2);  /* 自动适配 VitePress 的文字颜色 */
 }
 
