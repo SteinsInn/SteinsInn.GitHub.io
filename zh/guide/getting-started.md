@@ -8,6 +8,7 @@ lang: "zh-CN"
 ::: tip
 > 欢迎来到 Steins;Inn · 次元旅社
 > "世界线的收敛，将我们带到了同一个时空。"
+:::
 
 **目录**：
 [[TOC]]
@@ -176,9 +177,6 @@ lang: "zh-CN"
 
 ---
 
-<div class="img-yuan">
-
 [![加入 Discord](/images/pages/zh_join-server_4k.jpg)](https://discord.gg/jx5Z6NfuTP)
 
-</div>
 （点击上方图片可直接加入服务器）
