@@ -22,7 +22,7 @@ import { computed } from 'vue';
 import { useRoute } from 'vitepress';
 
 // 1. 填入你的后端地址
-const serverURL = 'https://你的地址.workers.dev'; 
+const serverURL = 'https://steinsinn-waline-comment.vercel.app'; 
 
 // 2. 路由逻辑：确保切换页面时评论区刷新
 const route = useRoute();
