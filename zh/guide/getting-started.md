@@ -84,7 +84,7 @@ lang: "zh-CN"
 ::: tip 🔊 AI 语音功能
 探索更多强大的 AI 语音玩法 🎙️
 
-👉 [立即查看完整指南](/zh/features/tss)
+👉 [立即查看完整指南](/zh/features/tts)
 :::
 
 
