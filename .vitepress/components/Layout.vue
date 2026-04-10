@@ -3,6 +3,8 @@
 import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
+import Waline from './Waline.vue' // 引入你那个全功能的 Waline 组件
+const { Layout } = DefaultTheme
 
 const { isDark } = useData()
 
@@ -42,7 +44,11 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
-  <DefaultTheme.Layout />
+  <Layout>
+    <template #doc-after>
+      <Waline />
+    </template>
+  </Layout>
 </template>
 
 <style>
