@@ -3,40 +3,37 @@ import { Waline } from '@waline/client/component';
 import { computed } from 'vue';
 import { useRoute } from 'vitepress';
 
-// 引入官方样式
+// 1. 引入官方样式
 import '@waline/client/style';
 
 const serverURL = 'https://steinsinn-waline-comment.vercel.app'; 
 const route = useRoute();
 const path = computed(() => route.path);
 
-// 🌟 核心逻辑：自动检测语言
+// 2. 🌟 核心逻辑：自动检测语言
 const lang = computed(() => {
   return route.path.includes('/en/') ? 'en-US' : 'zh-CN';
 });
 
-// 🌟 占位符逻辑
+// 3. 🌟 占位符逻辑
 const placeholder = computed(() => {
   return lang.value === 'en-US' 
     ? 'Welcome to Steins;Inn Website! Leave your message here...(Allow Markdown)' 
     : '欢迎来到次元旅社网站，欢迎评论...（支持 Markdown）';
 });
 
-// 🌟 标题逻辑
+// 4. 🌟 标题逻辑
 const title = computed(() => {
   return lang.value === 'en-US' ? '💬 Comments' : '💬 评论区';
 });
-</script>
-<script type="module">
-init({
-  el: '#waline',
-// 🌟 表情包配置（补全了 https: 协议，防止某些环境下加载失败）
-emoji = [
-  '//unpkg.com/@waline/emojis@1.1.0/weibo',
-  '//unpkg.com/@waline/emojis@1.1.0/bilibili',
-  '//unpkg.com/@waline/emojis@1.1.0/qq',
-  '//unpkg.com/@waline/emojis@1.1.0/tieba',
-  '//unpkg.com/@waline/emojis@1.1.0/twemoji',
+
+// 5. 🌟 表情包配置（就在这里定义，不要写在下面！）
+const emoji = [
+  'https://unpkg.com/@waline/emojis@1.1.0/weibo',
+  'https://unpkg.com/@waline/emojis@1.1.0/bilibili',
+  'https://unpkg.com/@waline/emojis@1.1.0/qq',
+  'https://unpkg.com/@waline/emojis@1.1.0/tieba',
+  'https://unpkg.com/@waline/emojis@1.1.0/twemoji',
 ];
 </script>
 
