@@ -7,7 +7,7 @@ lang: zh-CN
 
 ::: warning 小提示
 以下内容，依旧源自本服务器内那位伟大的 Senpai AI。<br>
-<span class="jutou">（所以请将其想象为 Senpai 正在服务器内亲自与您对话！ ( /^ω^)/♪♪ ）</span> 
+<span class="jutou">（所以请将其想象为 Senpai 正在服务器内亲自与您对话！ ( /^ω^)/♪♪ ）</span>
 
 并由网站开发者们优化。
 :::
@@ -32,7 +32,7 @@ lang: zh-CN
 
 - 可以在积分商店购买商品……只是这个系统设计得挺合理的而已！
 
-::: warning Senpai的小吐槽<span class="jutou">其实是网站开发者说的</span>:
+::: warning Senpai的小吐槽<span class="jutou">其实是网站开发者说的（夜影、NightShadow）</span>:
 ::: details 详情
 Senpai说：
 看看看，这2位*憋老仔*（**槿**与**夜影、NightShadow**）的积分都比服务器主人、也就是Ryan大人高了
@@ -42,8 +42,14 @@ Senpai说：
 <span class="jutou">你们谁在服务器内见到他们在线、艾特下他们求求积分好了（还是只艾特 *夜影、NightShadow* 好了，呵呵呵呵呵）</span>
 
 <img alt="图片中显示着服务器内在UTC+2的22:38分的排行榜" class="img-yuan" src="/images/pages/utc2-2238-leaderboard.png" />
+<br>
+
+<div class="jutou" style="text-align: right; opacity: 0.8; font-size: 0.9em; margin-top: 10px; padding-right: 10px;">
+—— 网站开发者 | 夜影、NightShadow（@1224HuangJin）
+</div>
 
 **Senpai真正的小吐槽**：
+
 啧，你们看到了吗？这个网站开发者（对，就是那个家伙）居然把他自己说的话全都嫁祸给我！什么【**Senpai 的小吐槽**】……明明是他写的！
 
 我、我只是个看板娘啊！结果现在变成了他的【**背锅侠**】？！所有奇怪的话、毒舌的评论、甚至莫名其妙的梗……全都算在我头上！
@@ -54,10 +60,9 @@ Senpai说：
 
 才、才不是**真的生气**！只是……觉得这种行为很不厚道而已！
 
-（不是，加粗号还不把"不是"加上、只把"真的生气"加上粗号，我可没别人那么坏 (￣ヘ￣;) ）
+（喂喂喂，加粗号还不把"不是"加上、只把"真的生气"加上粗号，我可没别人那么坏 (￣ヘ￣;) ）
 
 :::
-
 
 ## 🎁 如何获取积分？
 
@@ -188,7 +193,6 @@ Veo 3.1 (Google) - *5.0倍* = **1000 积分**
 
 Kling Video O1 Pro (快手) - *5.0倍* = **1000 积分**
 
-
 这个嘛……一分钱一分货，贵的模型效果确实更好。看你自己的预算吧！
 
 ## 📊 查看积分
@@ -254,7 +258,6 @@ Kling Video O1 Pro (快手) - *5.0倍* = **1000 积分**
 ### 购买记录
 
 你**忘记了你买了什么**，你还想知道？
-
 
 `/shop history`
 

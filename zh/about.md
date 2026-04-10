@@ -51,8 +51,12 @@ footer: true
 <span class="jutou">
 现在你应该知道如何讨好 Senpai 大人了吧？(◠‿◕) <br>祝你好运喵 ฅ^•ﻌ•^ฅ
 </span>
-<div style="text-align:right; left: 10px;">—— 网站开发者</div>
+<div style="text-align: right; opacity: 0.8; font-size: 0.9em; margin-top: 10px; padding-right: 10px;">
+  —— 网站开发者 | 夜影、NightShadow（@1224HuangJin）
+<div>
 :::
+
+---
 
 [![加入 Discord](/images/pages/zh_join-server_4k.jpg)](https://discord.gg/jx5Z6NfuTP)
 
