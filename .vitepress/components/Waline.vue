@@ -55,7 +55,7 @@ const emoji = [
       :pageview="true"
       :comment="true"
       :copyright="false"
-      reaction: false, // 开启反应
+      reaction: false,
     />
 
     <div class="waline-copyright">
