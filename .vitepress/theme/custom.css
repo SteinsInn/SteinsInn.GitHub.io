@@ -51,12 +51,14 @@
   —— 网站开发者 | 夜影、NightShadow (@1224HuangJin)
 </div>
 
-最重要的是："class="shuming""
+最重要的是：《class="shuming"》和《<div>》
 
 */
 /* 自定义署名样式 */
 /* 署名样式 */
-  .shuming {
+/* 自定义署名样式 */
+.shuming {
+  display: block;             /* 👈 加上这句！让 span 和 div 都能完美居右和换行 */
   text-align: right;          /* 居右 */
   margin-top: 2rem;           /* 与上方内容的间距 */
   padding-right: 10px;        /* 右侧微调，不贴边 */
@@ -69,4 +71,5 @@
 .shuming strong, .shuming b {
   color: var(--vp-c-brand);   /* 名字使用主题品牌色 */
 }
+/** shuming END （署名） **/
 /** shuming END （署名） **/

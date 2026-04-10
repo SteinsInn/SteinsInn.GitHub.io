@@ -45,9 +45,9 @@ Senpai说：
 <br>
 
 <div class="jutou">
-<span class="shuming">
+<div class="shuming">
 —— 网站开发者 | 夜影、NightShadow（@1224HuangJin）
-</span>
+</div>
 </div>
 
 **Senpai真正的小吐槽**：
