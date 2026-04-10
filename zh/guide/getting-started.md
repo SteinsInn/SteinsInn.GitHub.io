@@ -5,7 +5,7 @@ lang: "zh-CN"
 
 # 新手入门指南
 
-:::
+::: tip
 > 欢迎来到 Steins;Inn · 次元旅社
 > "世界线的收敛，将我们带到了同一个时空。"
 
@@ -177,8 +177,8 @@ lang: "zh-CN"
 ---
 
 <div class="img-yuan">
-  <a href="https://discord.gg/jx5Z6NfuTP">
-    <img src="/images/pages/zh_join-server_4k.jpg" alt="加入 Discord" />
-  </a>
+
+[![加入 Discord](/images/pages/zh_join-server_4k.jpg)](https://discord.gg/jx5Z6NfuTP)
+
 </div>
 （点击上方图片可直接加入服务器）
