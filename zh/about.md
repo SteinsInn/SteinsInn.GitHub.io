@@ -7,7 +7,10 @@ footer: true
 # 关于 Steins;Inn 次元旅社
 
 ::: warning 小提示
-以下内容都来自我们服务器内伟大的Senpai AI，<br> 并由网站开发者们优化。
+以下内容，源自本服务器内那位伟大的 Senpai AI。<br>
+<span class="jutou">（所以请将其想象为 Senpai 正在服务器内亲自与您对话！ \(๑╹◡╹๑)ﾉ♬ ）</span> 
+
+并由网站开发者们优化。
 :::
 
 **目录**：
