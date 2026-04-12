@@ -3,7 +3,8 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
       title: "Steins;Inn 次元旅社",
-      description: "AI角色扮演 · 动漫 · 游戏 · 闲聊",
+      // 一下Description为发送链接时的描述
+      description: "穿越次元的AI智能社区 | 50+顶级模型随心聊（GPT/Claude/Gemini/...）· Sora视频/Flux图片/Suno音乐创作 · SillyTavern角色扮演 · 积分任务福利系统 | 二次元爱好者的AI乐园 · El Psy Kongroo",
 
       // 这里是一个被注释掉的功能：  【base: "/",】 可以总是以斜杠结尾
       cleanUrls: true,
@@ -123,7 +124,7 @@ export default defineConfig({
                     }
                   ],
                   footer: {
-                    message: '本网站上的所有内容均根据 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>',
+                    message: '本网站上的所有内容均根据 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a> 发布',
                     copyright: 'Copyright © 2026 Steins;Inn 次元旅社'
                   },
                   editLink: {
