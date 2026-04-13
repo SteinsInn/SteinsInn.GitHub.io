@@ -1,5 +1,5 @@
 ---
-title: 积分系统
+title: 积分系统指南
 lang: zh-CN
 ---
 
