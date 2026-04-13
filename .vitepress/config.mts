@@ -101,6 +101,7 @@ export default defineConfig({
                         { text: "新手入门", link: "/zh/guide/getting-started" },
                         { text: "积分系统", link: "/zh/guide/points-system" },
                         { text: "任务系统", link: "/zh/guide/quest-system" },
+                        { text: "好感度系统", link: "/zh/guide/favor-system" },
                         { text: "社区规则", link: "/zh/guide/rules" },
                       ]
                     },
@@ -138,10 +139,11 @@ export default defineConfig({
               en: {
                 label: "English",
                 lang: "en-US",
-                link: "/en/",
+                // 在正式更改或者说启用的时候请将下面的 "/" 改为 "/en/"
+                link: "/",
                 themeConfig: {
                   nav: [
-                    { text: "Home", link: "/en/"},
+                    { text: "Home", link: "/"},
                     { text: "Join Discord", link: "https://discord.gg/jx5Z6NfuTP" }
                   ],
                   // 以下为侧边栏内容
@@ -149,9 +151,6 @@ export default defineConfig({
                     {
                       text: "🏠 Newcomer Guide",
                       items: [
-                        { text: "Getting Started", link: "/en/intro" },
-                        { text: "FAQ", link: "/en/faq" },
-                        { text: "Points & Economy", link: "/en/economy" }
                       ]
                     },
                   ],

@@ -1,6 +1,6 @@
 ---
 title: 好感度系统指南
-description: 
+description: 了解 Steins;Inn 次元旅社的好感度系统：Bot 如何根据你的对话质量动态调整「情感数值」，从陌生人一路到灵魂伴侣，还能联动积分奖励。—— 反正好好聊天就对了。
 lang: zh-CN
 ---
 
@@ -51,16 +51,21 @@ lang: zh-CN
 
 ::: info 开发者的炫耀
 <details> 
+
 <summary>嘿嘿，这是谁啊、好感那么多</summary>
+
 <span class="img-yuan">
 
 ![2026/04/13 16:35 UTC+2](/images/pages/1224huangjin-s_favor-system-20260413-1635.png)
 
 </span>
+
 </details>
+
 <span class="shuming">
 --- 夜影、NightShadow（@1224HuangJin） · 网站开发者
 </span>
+
 :::
 
 ## 📈 好感度如何变化
@@ -99,7 +104,7 @@ lang: zh-CN
 | **机制** | **说明** |
 |-----|-----|
 | ⏱️ *冷却机制* | 每小时最多获得 10 点正向好感度，超出后增长速度大幅减缓 |
-| 📊 *阶段系数** | 越接近极端值（±100），每次变化幅度越小，越难突破 |
+| 📊 *阶段系数* | 越接近极端值（±100），每次变化幅度越小，越难突破 |
 | ⚙️ *难度系数* | 管理员可调整全局难度，影响全服好感度增减速度 |
 
 > 换句话说：**「灵魂伴侣」不是刷出来的，是陪伴出来的。** 这是系统设计，也是……唔，某种意义上的常识吧。
@@ -155,10 +160,11 @@ lang: zh-CN
 
 :::
 
----
+<br>
 
 <div class="shuming">
 — Senpai 整理于某个不算太晚的夜晚 <span class="jutou">（UTC+8 2026/04/13 10:30~）</span>
+
 *El Psy Kongroo.*
 </div>
 
