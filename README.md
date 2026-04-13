@@ -1,55 +1,43 @@
-# Vitepress Template
 
-For self-use mainly.
+# 🏨 Steins;Inn 次元旅社 - 官方文档网站
 
-Preview: [Pages.Dev](https://steinsinn.pages.dev)
+> 穿越次元的 AI 社区 | *El Psy Kongroo*
 
-## Quick start
+## 🌐 网站
 
-[Use this template](https://github.com/new?template_name=vitepress-template&template_owner=wyf9)
+[SteinsInn.App](https://steinsinn.app)
 
-```bash
-pnpm install
-pnpm update # Must do update before use
-```
+## 📖 简介
 
-## Customize
+这是 [Steins;Inn（次元旅社）](https://discord.gg/jx5Z6NfuTP) Discord 服务器的官方文档网站源码。
 
-Delete these files:
+**Steins;Inn 次元旅社** 是一个集成 **52+ 种大语言模型**的**多模态 AI 社区**，提供 **AI 对话**、**图片**/**音乐**/**视频生成**、**角色扮演**等**功能**，面向 **ACG 爱好者**和 **AI 创作者**。
 
-```bash
-rm api-examples.md
-rm markdown-examples.md
-rm en_us/api-examples.md
-rm en_us/markdown-examples.md
-```
+## ✨ 网站内容
 
-And edit these files:
+- 🧭 【**指南**】 - *新手入门*、*积分系统*、*任务系统*、*社区规则*
+- 🛠️ 【**功能**】 - *AI 对话*、*图片生成*、*音乐生成*、*视频生成*、*语音合成*、*Role Play*（*角色扮演*）
+- ❓ 【**FAQ**】 - *常见问题*
+- 🍻 【**关于**】 - *关于次元旅社*
 
-```url
-.vitepress/config.mts
-index.md
-en_us/index.md
-README.md
-```
+## 🛠️ 技术栈
 
-### GitHub Pages deploy
+- [VitePress](https://vitepress.dev/) - *原网站模板*
+- [Cloudflare Pages](https://pages.cloudflare.com/) - *部署托管*
 
-If you need github pages deployment, simply go `Settings` -> `Pages` -> `Source`, select `GitHub Actions`, then enable the `Deploy VitePress site to Pages` workflow.
+## 🌍 多语言
 
-> [!IMPORTANT]
-> Remember to change the `base` setting in `.vitepress/config.mts`, if you want to deploy your site to a sub path.
+- **简体中文**
+- English（计划中）
 
-*If you don't need it, just remove `.github/workflows/deploy.yml` file.*
+## 🔗 相关链接
 
-## Commands
+- 💬 [Discord 服务器](https://discord.gg/jx5Z6NfuTP)
+- 🌐 [官方网站](https://steinsinn.app)
 
-```bash
-pnpm dev # Start development server
-pnpm build # Build site (.vitepress/dist/)
-pnpm preview # Preview built site
-```
+## 📄 许可证
 
-## Credits
 
-Licensed under the **[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en-us)** license.
+---
+
+*【这、这个 README 才不是我特意写的……只是顺便的而已！】—— Senpai*
