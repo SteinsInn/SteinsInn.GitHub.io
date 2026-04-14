@@ -72,11 +72,11 @@ export default defineConfig({
             },
           },
 
-          markdown: {
-            image: {
-              lazyLoading: true,
-            }
-          },
+//          markdown: {
+//            image: {
+//              lazyLoading: true,
+//            }
+//          },
 
           locales: {
               // ==================== 简体中文配置 ====================
