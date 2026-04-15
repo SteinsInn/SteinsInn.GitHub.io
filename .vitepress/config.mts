@@ -102,7 +102,7 @@ export default defineConfig({
                         { text: "积分系统", link: "/zh/guide/points-system" },
                         { text: "任务系统", link: "/zh/guide/quest-system" },
                         { text: "好感度系统", link: "/zh/guide/favor-system" },
-                        { text: "社区规则", link: "/zh/guide/rules" },
+//                        { text: "社区规则", link: "/zh/guide/rules" },
                       ]
                     },
                     {
