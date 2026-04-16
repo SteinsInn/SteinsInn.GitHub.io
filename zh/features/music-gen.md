@@ -74,19 +74,30 @@ description:
        instrumental:false
 ```
 
+
+
+
+
+
+
 ::: warning 注意
 
-使用命令生成的话，这里要填歌词，不然就是会像你生成的那个一直在重复“一首关于星空的歌”。
+使用命令生成的话，**Prompt 里一定要填入具体的歌词**，而不能仅仅写音乐的风格或主题。不然的话，AI 会把你的提示词直接当成歌词，就像下面的错误示例那样，一直死板地重复唱“一首关于星空的歌”。
 
-自然语言的话会加一个前置的歌词创作步骤，命令的用法是想要保留精准的歌词和控制，就直接到生成步骤了。
+**为什么要这样设计？**
 
-<span class="shuming">--- Ryan （服务器创建者，Bot开发者...）</span>
+因为如果使用**自然语言对话**，Bot 会自动执行一个“前置的歌词创作步骤”来帮你写词。但 **`/music` 命令** 的设计初衷，是为了让大家**保留对歌词和段落的精准控制权**，所以系统会跳过自动作词，直接进入音乐生成步骤。这就要求你必须在 Prompt 中亲自喂给它完整的歌词文本。
 
-::: details 示例：
 
-**给了歌词版**：
-给AI的指令：
-```
+**以上内容为AI优化，并非Ryan原话**
+
+<span class="shuming">--- Ryan - 服务器创建者，Bot开发者...</span>
+
+::: details 示例：**提供了歌词的正确用法**：
+
+给 AI 的指令：
+
+```text
 /music prompt:一首关于星空的歌，歌词为：
               [Intro]
               [Verse 1]
@@ -99,53 +110,56 @@ description:
        instrumental:false
 ```
 
-<span class="jutou">哈哈哈，在这个的Promot里给上了：`一首关于星空的歌，歌词为：` 然后在音乐里也唱出来了</span>
+<span class="jutou">哈哈哈，在这个的 Prompt 里给上了：一首关于星空的歌，歌词为： 然后在音乐里就完美按照提供的歌词唱出来了。</span>
 
 该音乐的 Discord 链接： [Discord.com](https://discord.com/channels/1425882672139473089/1425884184156835881/1494376890012536854)
 
+输出的内容：
+
+<audio controls>
+
+<source src="/audio/点亮瞳孔_1776358143435.mp3" type="audio/mpeg" />
+
+你的浏览器不支持音频播放。
+
+</audio>
+
 内容图片：
 
-<span class="img-yuan">
+<span clas="img-yuan">
+
 
 ![music-exemple-点亮瞳孔](/images/pages/music-exemple-点亮瞳孔.png)
 
 </span>
 
-输出的内容：
+**没给歌词的错误用法**：
 
-<div style="
-  margin: 18px 0;
-  padding: 14px 16px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 16px;
-  background: var(--vp-c-bg-soft);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
-">
-  <div style="
-    margin-bottom: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    opacity: 0.9;
-  ">
-    🎵 点亮瞳孔
-  </div>
+给 AI 的指令：
 
-  <audio controls style="width: 100%; display: block; accent-color: var(--vp-c-brand-1);">
-    <source src="/audio/点亮瞳孔_1776358143435.mp3" type="audio/mpeg" />
-    你的浏览器不支持音频播放。
-  </audio>
-</div>
-
-**没给歌词版**：
-给AI的指令：
 ```
+
 /music prompt:一首关于星空的歌
+
        style:放松 (Chill)
+
        description:节奏舒缓，适合深夜听，有钢琴和电子元素
+
        instrumental:false
+
 ```
 
 该音乐的 Discord 链接： [Discord.com](https://discord.com/channels/1425882672139473089/1425884184156835881/1494377360269774969)
+
+输出的内容：
+
+<audio controls>
+
+<source src="/audio/星空的盐点_1776358144623.mp3" type="audio/mpeg" />
+
+你的浏览器不支持音频播放。
+
+</audio>
 
 内容图片：
 
@@ -155,37 +169,14 @@ description:
 
 </span>
 
-输出的内容：
-
-<div style="
-  margin: 18px 0;
-  padding: 14px 16px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 16px;
-  background: var(--vp-c-bg-soft);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
-">
-  <div style="
-    margin-bottom: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    opacity: 0.9;
-  ">
-    🎵 星空的盐点
-  </div>
-
-  <audio controls style="width: 100%; display: block; accent-color: var(--vp-c-brand-1);">
-    <source src="/audio/星空的盐点_1776358144623.mp3" type="audio/mpeg" />
-    你的浏览器不支持音频播放。
-  </audio>
-</div>
+看到区别了吗？
 
 <span class="shuming">
 
 --- 夜影、NightShadow（@1224HuangJin） - 网站开发者
 
 </span>
-:::
+
 :::
 
 ## 🎼 两种生成模型
