@@ -38,18 +38,19 @@ head:
     content: Steins;Inn 次元旅社
 - - meta
   - property: og:image
-    content: https://steinsinn.pages.dev/images/r-1024x1024.png
+    content: https://steinsinn.app/images/r-1024x1024.png
 - - meta
   - property: og:url
-    content: https://steinsinn.pages.dev/
+    content: https://steinsinn.app/en
 - - meta
   - name: title
     content: Steins;Inn 次元旅社
 - - meta
   - name: twitter:card
-    content: https://steinsinn.pages.dev/images/r-1024x1024.png
+    content: https://steinsinn.app/images/r-1024x1024.png
 - - link
   - rel: icon
     type: image/icon
-    href: favicon.ico
+    href: https://steinsinn.app/images/favicon.ico
+---
 ---
