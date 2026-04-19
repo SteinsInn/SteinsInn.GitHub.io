@@ -1,5 +1,5 @@
 ---
-title: AI视频生成指南
+title: AI 视频生成指南
 description:
 lang: zh-CN
 ---

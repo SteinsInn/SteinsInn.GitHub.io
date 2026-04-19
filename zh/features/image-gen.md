@@ -1,5 +1,5 @@
 ---
-title: AI 图片生成完全指南
+title: AI 图片生成指南
 description: 完整的图片生成指南，包括所有的斜杠命令，提示词推荐等...
 lang: zh-CN
 ---
