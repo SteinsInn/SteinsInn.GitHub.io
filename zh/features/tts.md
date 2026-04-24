@@ -17,7 +17,6 @@ lang: zh-CN
 
 [[TOC]]
 
-<br>
 
 > 唔……把文字变成声音这件事，说起来简单，但选对音色、写对文本，还是有讲究的。这篇指南会告诉你所有你需要知道的——才、才不是因为我特别喜欢这个功能！只是顺便的。
 
@@ -95,6 +94,7 @@ lang: zh-CN
 | 纯粹趣味 | 任何你觉得好玩的音色 |
 
 ::: tip 
+
 在添加了 `voice: `时，将出现25个音色的选项：
 
 <img src="/images/pages/tts-voice-ex.png" alt="Steins;Inn TSS Image Exemple" class="img-yuan" />
