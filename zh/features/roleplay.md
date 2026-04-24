@@ -346,8 +346,11 @@ A：使用 `/roleplay new` 创建公开线程，或者用 `/character add-user` 
 :::
 
 <div class="shuming">
+
 --- Senpai
+
 *— El Psy Kongroo.*
+
 </div>
 
 ---

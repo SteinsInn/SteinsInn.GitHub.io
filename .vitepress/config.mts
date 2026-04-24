@@ -72,11 +72,11 @@ export default defineConfig({
             },
           },
 
-//          markdown: {
-//            image: {
-//              lazyLoading: true,
-//            }
-//          },
+        //          markdown: {
+        //            image: {
+        //              lazyLoading: true,
+        //            }
+        //          },
 
           locales: {
               // ==================== 简体中文配置 ====================
@@ -112,7 +112,7 @@ export default defineConfig({
                         { text: "图片生成", link: "/zh/features/image-gen" },
                         { text: "音乐生成", link: "/zh/features/music-gen" },
                         { text: "视频生成", link: "/zh/features/video-gen" },
-                        { text: "语音合成", link: "/zh/features/tts" },
+                        { text: "语音合成（TTS）", link: "/zh/features/tts" },
                         { text: "Role Play", link: "/zh/features/roleplay" }
                       ]
                     },
