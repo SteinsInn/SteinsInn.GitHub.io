@@ -276,8 +276,8 @@ Roleplay 中的 AI 对话与普通对话相同，按模型档位消耗积分：
 | **档位** | **积分**/次 | **代表模型** |
 |-----|--------|---------|
 | ⚡ 轻量 | 1 | Gemini Flash、GPT-5 Mini、DeepSeek V3 |
-| 💙 中档 | 2 | Claude Haiku、DeepSeek R1、GLM-5 |
-| 💜 专业 | 4 | Gemini Pro、GPT-5/5.1、Grok-4 |
+| 💙 中档 | 2 | Claude Haiku、DeepSeek R1、GLM-5、Gemini Pro |
+| 💜 专业 | 4 | GPT-5/5.1、Grok-4 |
 | 🧡 旗舰 | 8 | Claude Sonnet、GPT-5.4 |
 | 💎 顶级 | 12 | Claude Opus |
 
