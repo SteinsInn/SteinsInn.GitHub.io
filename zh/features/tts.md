@@ -4,14 +4,20 @@ description:
 lang: zh-CN
 ---
 
-
 # 🎙️ AI 语音合成（TTS）指南
+
+::: warning 小提示
+以下内容，源自本服务器内那位伟大的 Senpai AI。<br>
+<span class="jutou">（所以请将其想象为 Senpai 正在服务器内亲自与您对话！ (*ﾉ・ω・)ﾉ♫*）  ）</span> 
+
+并由网站开发者们优化。
+:::
 
 ## 目录
 
 [[TOC]]
 
->
+<br>
 
 > 唔……把文字变成声音这件事，说起来简单，但选对音色、写对文本，还是有讲究的。这篇指南会告诉你所有你需要知道的——才、才不是因为我特别喜欢这个功能！只是顺便的。
 
@@ -30,7 +36,7 @@ lang: zh-CN
 ::: info 示例
 
 图片：
-<img src="/images/pages/tts-welcome-exemple.png" alt="Chinese, TTS: Welcome To Steins;Inn Exemple" class="img-yuan">
+<img src="/images/pages/tts-welcome-exemple.png" alt="Chinese, TTS: Welcome To Steins;Inn Exemple" class="img-yuan" />
 
 音频预览：
 <audio controls>
@@ -91,7 +97,7 @@ lang: zh-CN
 ::: tip 
 在添加了 `voice: `时，将出现25个音色的选项：
 
-<img src="/images/pages/tts-voice-ex.png" alt="Steins;Inn TSS Image Exemple" class="img-yuan">
+<img src="/images/pages/tts-voice-ex.png" alt="Steins;Inn TSS Image Exemple" class="img-yuan" />
 
 :::
 
