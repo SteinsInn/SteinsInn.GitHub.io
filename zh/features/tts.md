@@ -35,7 +35,8 @@ lang: zh-CN
 ::: info 示例
 
 图片：
-<img src="/images/pages/tts-welcome-exemple.png" alt="Chinese, TTS: Welcome To Steins;Inn Exemple" class="img-yuan" />
+<img src="/images/pages/tts-welcome-exemple.png" alt="Chinese, TTS: Welcome To Steins;Inn Exemple" class="img-yuan" >
+</img>
 
 音频预览：
 <audio controls>
@@ -97,7 +98,9 @@ lang: zh-CN
 
 在添加了 `voice: `时，将出现25个音色的选项：
 
-<img src="/images/pages/tts-voice-ex.png" alt="Steins;Inn TSS Image Exemple" class="img-yuan" />
+<img src="/images/pages/tts-voice-ex.png" alt="Steins;Inn TSS Image Exemple" class="img-yuan" >
+</img>
+
 
 :::
 
@@ -152,7 +155,9 @@ lang: zh-CN
 
 图片预览：
 
-<img src="/images/pages/tts-welcome-to-exemple.png" class="img-yuan" />
+<img src="/images/pages/tts-welcome-to-exemple.png" class="img-yuan" >
+</img>
+
 
 音频示例：
 
