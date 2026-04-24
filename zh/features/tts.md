@@ -152,7 +152,7 @@ lang: zh-CN
 
 图片预览：
 
-<img src="/images/pages/tts-welcome-to-exemple.png" class="img-yuan">
+<img src="/images/pages/tts-welcome-to-exemple.png" class="img-yuan" />
 
 音频示例：
 
