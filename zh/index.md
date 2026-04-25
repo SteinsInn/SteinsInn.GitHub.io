@@ -13,13 +13,13 @@ hero:
 
   actions:
     - theme: brand
+      text: 🛕 开始浏览文档
+      link: /zh/guide/getting-started
+    - theme: brand
       text: 🚀 立马加入 Discord
       link: https://discord.gg/jx5Z6NfuTP
     - theme: alt
-      text: 快速开始
-      link: /zh/guide/getting-started
-    - theme: alt
-      text: 关于 Steins;Inn
+      text: 关于次元旅社
       link: /zh/about
 
 
