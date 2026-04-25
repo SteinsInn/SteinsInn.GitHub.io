@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
       title: "Steins;Inn 次元旅社",
       // 一下Description为发送链接时的描述
-      description: "穿越次元的AI智能社区 | 50+顶级模型随心聊（GPT/Claude/Gemini/与更多...）· Sora视频/Flux图片/Suno音乐创作 · SillyTavern角色扮演 ·积分任务福利系统 | 二次元爱好者的AI乐园 --- El Psy Kongroo",
+      description: "Discord 内的 AI社区 | 50+顶级模型随心聊（GPT/Claude/Gemini/与更多...）· Sora视频/Flux图片/Suno音乐创作 · SillyTavern角色扮演 ·积分任务福利系统 | 二次元爱好者的AI乐园",
 
       // 这里是一个被注释掉的功能：  【base: "/",】 可以总是以斜杠结尾
       cleanUrls: true,
@@ -102,7 +102,7 @@ export default defineConfig({
                         { text: "积分系统", link: "/zh/guide/points-system" },
                         { text: "任务系统", link: "/zh/guide/quest-system" },
                         { text: "好感度系统", link: "/zh/guide/favor-system" },
-//                        { text: "社区规则", link: "/zh/guide/rules" },
+                    //  { text: "社区规则", link: "/zh/guide/rules" },
                       ]
                     },
                     {
@@ -131,6 +131,15 @@ export default defineConfig({
                   editLink: {
                     pattern: "https://github.com/SteinsInn/SteinsInn.GitHub.io/edit/main/:path",
                     text: "在 GitHub 上编辑本页"
+                  },
+                 // 汉化了"On this page"
+                  outline: {
+                    label: '本页目录导航'
+                  },
+                  // 汉化了 "Previous page" 与 "Next page"。
+                  docFooter: {
+                    prev: '上一篇',
+                    next: '下一篇'
                   }
                 }
               },
