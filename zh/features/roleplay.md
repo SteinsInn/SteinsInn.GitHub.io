@@ -2,6 +2,7 @@
 title: Roleplay 指南
 description:
 lang: zh-CN
+layout: doc
 ---
 
 # 🎭 AI Roleplay 指南

@@ -134,7 +134,7 @@ export default defineConfig({
                   },
                  // 汉化了"On this page"
                   outline: {
-                    label: '本页目录导航'
+                    label: '页面导航'
                   },
                   // 汉化了 "Previous page" 与 "Next page"。
                   docFooter: {
