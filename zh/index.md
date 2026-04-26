@@ -31,7 +31,7 @@ features:
   - title: "🎭 酒馆角色卡"
     details: "直接在 Discord 里玩酒馆！完整支持 SillyTavern，预设、世界书、记忆系统全都有。（尊重酒馆生态：角色卡仅自己可见，随时可删。）"
 
-    # 网页元数据 (SEO)
+# 网页元数据 (SEO)
 head:
 - - meta
   - property: og:type
@@ -48,6 +48,9 @@ head:
 - - meta
   - name: title
     content: Steins;Inn 次元旅社
+- - meta
+  - name: description
+    content: 一个可以与AI对话，生图，作曲，生成视频，以及玩AI角色扮演(SillyTavern)的Discord服务器。
 - - meta
   - name: twitter:card
     content: https://steinsinn.app/images/r-1024x1024.png
