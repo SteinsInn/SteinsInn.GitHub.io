@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
       title: "Steins;Inn 次元旅社",
-      // 一下Description为发送链接时的描述
+      // 以下Description为发送链接时的描述
       description: "Discord 内的 AI社区 | 50+顶级模型随心聊（GPT/Claude/Gemini/与更多...）· Sora视频/Flux图片/Suno音乐创作 · SillyTavern角色扮演 ·积分任务福利系统 | 二次元爱好者的AI乐园",
 
       // 这里是一个被注释掉的功能：  【base: "/",】 可以总是以斜杠结尾
@@ -134,7 +134,8 @@ export default defineConfig({
                   },
                  // 汉化了"On this page"
                   outline: {
-                    label: '页面导航'
+                     label: '页面导航',
+                     level: 'deep'
                   },
                   // 汉化了 "Previous page" 与 "Next page"。
                   docFooter: {
