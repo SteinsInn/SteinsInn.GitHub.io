@@ -125,7 +125,7 @@ export default defineConfig({
                     }
                   ],
                   footer: {
-                    message: '本网站上的所有内容均根据 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a> 发布',
+                    message: '本网站上的所有内容均根据 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a> 发布。',
                     copyright: 'Copyright © 2026 Steins;Inn 次元旅社'
                   },
                   editLink: {
@@ -146,41 +146,42 @@ export default defineConfig({
               },
 
               // ==================== 英文配置 ====================
-              en: {
-                label: "English",
-                lang: "en-US",
-                // 在正式更改或者说启用的时候请将下面的 "/" 改为 "/en/"
-                link: "/",
-                themeConfig: {
-                  nav: [
-                    { text: "Home", link: "/"},
-                    { text: "Join Discord", link: "https://discord.gg/jx5Z6NfuTP" }
-                  ],
-                  // 以下为侧边栏内容
-                  sidebar: [
-                    {
-                      text: "🏠 Newcomer Guide",
-                      items: [
-                      ]
-                    },
-                  ],
-                  footer: {
-                    message: 'All content on this website released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>',
-                    copyright: 'Copyright © 2026 Steins;Inn 次元旅社'
-                  },
-                  lastUpdated:{
-                    text: 'Last update at',
-                    formatOptions: {
-                      dateStyle: 'full',
-                      timeStyle: 'medium',
-                      forceLocale: true,
-                    }
-                  },                  
-                  editLink: {
-                      pattern: "https://github.com/SteinsInn/SteinsInn.GitHub.io/edit/main/:path",
-                      text: "Edit this page on GitHub"
-                    }
-                }
-              }
+              // en: {
+              //   label: "English",
+              //   lang: "en-US",
+              //   // 在正式更改或者说启用的时候请将下面的 "/" 改为 "/en/"
+              //   link: "/",
+              //   themeConfig: {
+              //     nav: [
+              //       { text: "Home", link: "/"},
+              //       { text: "Join Discord", link: "https://discord.gg/jx5Z6NfuTP" }
+              //     ],
+              //     // 以下为侧边栏内容
+              //     sidebar: [
+              //       {
+              //         text: "🏠 Newcomer Guide",
+              //         items: [
+
+              //         ]
+              //       },
+              //     ],
+              //     footer: {
+              //       message: 'All content on this website released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>',
+              //       copyright: 'Copyright © 2026 Steins;Inn 次元旅社'
+              //     },
+              //     lastUpdated:{
+              //       text: 'Last update at',
+              //       formatOptions: {
+              //         dateStyle: 'full',
+              //         timeStyle: 'medium',
+              //         forceLocale: true,
+              //       }
+              //     },                  
+              //     editLink: {
+              //         pattern: "https://github.com/SteinsInn/SteinsInn.GitHub.io/edit/main/:path",
+              //         text: "Edit this page on GitHub"
+              //       }
+              //   }
+              // }
             }
           });
