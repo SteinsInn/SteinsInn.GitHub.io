@@ -6,8 +6,7 @@ lang: "zh-CN"
 # 新手入门指南
 
 ::: tip
-> 欢迎来到 Steins;Inn · 次元旅社<br>
-
+> 欢迎来到 Steins;Inn · 次元旅社 <br>
 > "世界线的收敛，将我们带到了同一个时空。"
 :::
 
@@ -221,8 +220,7 @@ lang: "zh-CN"
 
 **如果你在寻找一个可以长期停留的地方**——
 
-> Steins;Inn 次元旅社，欢迎你。
-
+> Steins;Inn 次元旅社，欢迎你。<br>
 > El Psy Kongroo.
 
 <div class="shuming">
