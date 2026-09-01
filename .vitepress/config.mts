@@ -142,6 +142,7 @@ export default defineConfig({
                         { text: "音乐生成", link: "/zh/features/music-gen" },
                         { text: "视频生成", link: "/zh/features/video-gen" },
                         { text: "语音合成（TTS）", link: "/zh/features/tts" },
+                        { text: "新闻早报", link: "/zh/features/news-briefing" },
                         { text: "Role Play", link: "/zh/features/roleplay" }
                       ]
                     },

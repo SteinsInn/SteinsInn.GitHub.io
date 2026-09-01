@@ -28,6 +28,8 @@ features:
     details: "50+ 大模型任选（GPT、Claude、Gemini、Grok、MiniMax、DeepSeek、豆包、Kimi、Qwen、GLM...）"
   - title: "🎨 AI 创作"
     details: "生图（Nano Banana / 豆包 / Grok / MiniMax / Flux）、作曲（Suno / MiniMax）、生成视频（Wan / hailuo / Seedance / Sora），样样精通"
+  - title: "📰 新闻早报"
+    details: "每天 10 点自动出刊 Steins;Inn AI 日报 / 游戏日报，含完整 Newsletter、报纸图、语音播报 — 在「分享空间」频道按帖翻阅"
   - title: "🎭 酒馆角色卡"
     details: "直接在 Discord 里玩酒馆！完整支持 SillyTavern，预设、世界书、记忆系统全都有。（尊重酒馆生态：角色卡仅自己可见，随时可删。）"
 
