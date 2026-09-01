@@ -1,12 +1,14 @@
 <!-- 官方的外观切换代码：https://vitepress.dev/zh/guide/extending-default-theme#on-appearance-toggle -->
 <script setup lang="ts">
-import { useData } from 'vitepress'
+import { useData, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, onMounted, provide, watch } from 'vue'
 import Waline from './Waline.vue' // 引入你那个全功能的 Waline 组件
 const { Layout } = DefaultTheme
 
-const { isDark, route } = useData()
+const { isDark } = useData()
+// VitePress 1.6 起 useData() 不再返回 route 字段；改用 VitePress re-export 的 useRoute()
+const route = useRoute()
 
 const enableTransitions = () =>
   'startViewTransition' in document &&
